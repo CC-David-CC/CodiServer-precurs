@@ -117,6 +117,18 @@ def prepare(root, manifest, profile):
                     member.name = member.name[len(prefix):]
                     members.append(member)
                 archive.extractall(toolkit, members=members, filter=safe_tar_member)
+        # Installed ROCm uses /etc/alternatives aliases. The archived SDK is
+        # self-contained once those recorded aliases point at its versioned tree.
+        for alias, relative in config.get('sdk_links', {}).items():
+            link = toolkit / alias
+            target = (toolkit / relative).resolve()
+            if alias in ('.', '..') or Path(alias).name != alias or not target.is_relative_to(toolkit.resolve()) or not target.exists():
+                raise ValueError('Unsafe or missing SDK alias: ' + alias)
+            if link.is_symlink():
+                link.unlink()
+            elif link.exists():
+                raise ValueError('SDK alias would replace a real file: ' + alias)
+            link.symlink_to(relative, target_is_directory=target.is_dir())
         lib64 = toolkit / 'lib64'
         if config['backend'] == 'cuda' and not lib64.exists():
             lib64.symlink_to('lib', target_is_directory=True)
@@ -139,7 +151,7 @@ def build(root, manifest, profile, jobs):
             '-DSTRATA_BUILD_TESTS=OFF', '-DCMAKE_CXX_COMPILER=' + str(compiler),
             '-DCMAKE_C_COMPILER=/usr/bin/gcc-' + str(config['gcc']),
             '-DCMAKE_MAKE_PROGRAM=/usr/bin/ninja',
-            '-DSTRATA_ISA_FLOOR=' + config.get('isa', 'avx2')]
+            '-DSTRATA_ISA_FLOOR=' + config.get('isa', '')]
     if config['backend'] == 'cuda':
         if config.get('sdk_archive'):
             toolkit = prepare(root, manifest, profile) / 'cuda'

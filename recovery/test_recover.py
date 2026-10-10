@@ -9,6 +9,12 @@ import recover
 
 
 class LocalRecoveryTests(unittest.TestCase):
+    def test_unknown_manifest_asset_is_rejected(self):
+        manifest = {'profiles': {'test': {'assets': ['missing']}}, 'assets': []}
+        with tempfile.TemporaryDirectory() as directory:
+            with self.assertRaisesRegex(ValueError, 'unknown assets'):
+                recover.verify(Path(directory), manifest, 'test')
+
     def test_payload_hash_tamper_and_lfs_pointer(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
