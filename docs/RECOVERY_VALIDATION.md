@@ -1,3 +1,10 @@
+Local validation update: essential shell/base utilities and their exact preferred
+sources have been added after an isolated dependency-root test exposed the
+base-OS shell assumption. The earlier checks below apply to baseline `46cabe8`;
+the extended payload is undergoing fresh local validation. No public push is authorized
+by these partial results. OS media, live driver installation and reboot testing remain
+separate from extraction/build checks.
+
 # Recovery validation
 
 The complete local manifest verifies 1,857 assets: 13,834,712,524 bytes across
