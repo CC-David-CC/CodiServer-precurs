@@ -838,7 +838,39 @@
         "assets/ubuntu-24.04-amd64/sources/mawk_1.3.4.20240123-1build1.debian.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/sed_4.9.orig.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/sed_4.9-2ubuntu0.24.04.1.debian.tar.xz",
-        "assets/ubuntu-24.04-amd64/sources/sed_4.9-2ubuntu0.24.04.1.dsc"
+        "assets/ubuntu-24.04-amd64/sources/sed_4.9-2ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/packages/amd64-microcode_3.20251202.1ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/intel-microcode_3.20260210.0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu0.24.04.1.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/intel-microcode_3.20260210.0ubuntu0.24.04.1.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/intel-microcode_3.20260210.0ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig-amd64.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig-arm64.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-amd-graphics_20240318.git3b128b60-0ubuntu3.3_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-amd-misc_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-broadcom-wireless_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-intel-graphics_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-intel-misc_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-intel-wireless_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-marvell-prestera_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-marvell-wireless_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-mediatek_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-mellanox-spectrum_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-misc_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-netronome_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-nvidia-graphics_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-qlogic_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-qualcomm-graphics_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-qualcomm-misc_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-qualcomm-wireless_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-realtek_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware_20240318.git3b128b60.0ubuntu3.1_all.deb"
       ]
     },
     "r730": {
@@ -1668,7 +1700,39 @@
         "assets/ubuntu-24.04-amd64/sources/mawk_1.3.4.20240123-1build1.debian.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/sed_4.9.orig.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/sed_4.9-2ubuntu0.24.04.1.debian.tar.xz",
-        "assets/ubuntu-24.04-amd64/sources/sed_4.9-2ubuntu0.24.04.1.dsc"
+        "assets/ubuntu-24.04-amd64/sources/sed_4.9-2ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/packages/amd64-microcode_3.20251202.1ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/intel-microcode_3.20260210.0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu0.24.04.1.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/intel-microcode_3.20260210.0ubuntu0.24.04.1.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/intel-microcode_3.20260210.0ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig-amd64.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig-arm64.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-amd-graphics_20240318.git3b128b60-0ubuntu3.3_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-amd-misc_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-broadcom-wireless_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-intel-graphics_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-intel-misc_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-intel-wireless_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-marvell-prestera_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-marvell-wireless_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-mediatek_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-mellanox-spectrum_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-misc_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-netronome_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-nvidia-graphics_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-qlogic_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-qualcomm-graphics_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-qualcomm-misc_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-qualcomm-wireless_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-realtek_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware_20240318.git3b128b60.0ubuntu3.1_all.deb"
       ]
     },
     "a5500": {
@@ -2397,7 +2461,20 @@
         "assets/ubuntu-24.04-amd64/sources/sysvinit_3.08-6ubuntu3.debian.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/util-linux_2.39.3.orig.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/util-linux_2.39.3-9ubuntu6.6.debian.tar.xz",
-        "assets/ubuntu-24.04-amd64/sources/util-linux_2.39.3-9ubuntu6.6.dsc"
+        "assets/ubuntu-24.04-amd64/sources/util-linux_2.39.3-9ubuntu6.6.dsc",
+        "assets/ubuntu-24.04-amd64/packages/amd64-microcode_3.20251202.1ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/intel-microcode_3.20260210.0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu0.24.04.1.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/intel-microcode_3.20260210.0ubuntu0.24.04.1.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/intel-microcode_3.20260210.0ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig-amd64.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig-arm64.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.debian.tar.xz"
       ]
     },
     "llm-60": {
@@ -2551,15 +2628,7 @@
         "assets/ubuntu-24.04-amd64/packages/libncursesw6_6.4+20240113-1ubuntu2.2_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/libnettle8t64_3.9.1-2.2build1.1_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/libnghttp2-14_1.59.0-1ubuntu0.4_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/libnvidia-cfg1-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/libnvidia-common-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/libnvidia-compute-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/libnvidia-decode-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/libnvidia-egl-wayland1_1%3a1.1.21-1ubuntu1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/libnvidia-encode-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/libnvidia-extra-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/libnvidia-fbc1-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/libnvidia-gl-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/libnvptxcompiler-13-2_13.2.86-1_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/libnvvm-13-2_13.2.86-1_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/libp11-kit0_0.25.3-4ubuntu2.2_amd64.deb",
@@ -2655,13 +2724,6 @@
         "assets/ubuntu-24.04-amd64/packages/mount_2.39.3-9ubuntu6.6_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/netbase_6.4_all.deb",
         "assets/ubuntu-24.04-amd64/packages/ninja-build_1.11.1-2_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/nvidia-compute-utils-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/nvidia-dkms-595-open_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/nvidia-driver-595-open_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/nvidia-firmware-595-595.99.02_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/nvidia-kernel-common-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/nvidia-kernel-source-595-open_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/nvidia-utils-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/ocl-icd-libopencl1_2.3.2-1build1_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/pahole_1.25-0ubuntu3_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/passwd_1%3a4.13+dfsg1-4ubuntu3.2_amd64.deb",
@@ -2692,7 +2754,6 @@
         "assets/ubuntu-24.04-amd64/packages/xkb-data_2.41-2ubuntu1.1_all.deb",
         "assets/ubuntu-24.04-amd64/packages/xserver-common_2%3a21.1.12-1ubuntu1.8_all.deb",
         "assets/ubuntu-24.04-amd64/packages/xserver-xorg-core_2%3a21.1.12-1ubuntu1.8_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/xserver-xorg-video-nvidia-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/xz-utils_5.6.1+really5.4.5-1ubuntu0.3_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/zlib1g_1%3a1.3.dfsg-3.1ubuntu2.2_amd64.deb",
         "assets/ubuntu-24.04-amd64/sources/acl_2.3.2.orig.tar.xz",
@@ -3230,8 +3291,58 @@
         "assets/ubuntu-24.04-amd64/sources/mawk_1.3.4.20240123-1build1.debian.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/sed_4.9.orig.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/sed_4.9-2ubuntu0.24.04.1.debian.tar.xz",
-        "assets/ubuntu-24.04-amd64/sources/sed_4.9-2ubuntu0.24.04.1.dsc"
-      ]
+        "assets/ubuntu-24.04-amd64/sources/sed_4.9-2ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/packages/amd64-microcode_3.20251202.1ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/intel-microcode_3.20260210.0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libnvidia-cfg1-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libnvidia-common-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libnvidia-compute-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libnvidia-decode-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libnvidia-encode-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libnvidia-extra-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libnvidia-fbc1-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libnvidia-gl-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-modules-nvidia-595-open-7.0.0-34-generic_7.0.0-34.34~24.04.1+1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/nvidia-compute-utils-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/nvidia-driver-595-open_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/nvidia-firmware-595-595.91.07_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/nvidia-kernel-common-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/nvidia-kernel-source-595-open_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/nvidia-utils-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/xserver-xorg-video-nvidia-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu0.24.04.1.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/intel-microcode_3.20260210.0ubuntu0.24.04.1.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/intel-microcode_3.20260210.0ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig-amd64.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig-arm64.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-amd-graphics_20240318.git3b128b60-0ubuntu3.3_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-amd-misc_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-broadcom-wireless_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-intel-graphics_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-intel-misc_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-intel-wireless_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-marvell-prestera_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-marvell-wireless_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-mediatek_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-mellanox-spectrum_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-misc_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-netronome_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-nvidia-graphics_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-qlogic_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-qualcomm-graphics_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-qualcomm-misc_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-qualcomm-wireless_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-realtek_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware_20240318.git3b128b60.0ubuntu3.1_all.deb"
+      ],
+      "driver_version": "595.91.07",
+      "driver_recovery": "Ubuntu prebuilt open module for the recorded kernel"
     },
     "g3070": {
       "role": "g3070",
@@ -3384,15 +3495,7 @@
         "assets/ubuntu-24.04-amd64/packages/libncursesw6_6.4+20240113-1ubuntu2.2_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/libnettle8t64_3.9.1-2.2build1.1_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/libnghttp2-14_1.59.0-1ubuntu0.4_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/libnvidia-cfg1-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/libnvidia-common-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/libnvidia-compute-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/libnvidia-decode-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/libnvidia-egl-wayland1_1%3a1.1.21-1ubuntu1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/libnvidia-encode-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/libnvidia-extra-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/libnvidia-fbc1-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/libnvidia-gl-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/libnvptxcompiler-13-2_13.2.86-1_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/libnvvm-13-2_13.2.86-1_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/libp11-kit0_0.25.3-4ubuntu2.2_amd64.deb",
@@ -3488,13 +3591,6 @@
         "assets/ubuntu-24.04-amd64/packages/mount_2.39.3-9ubuntu6.6_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/netbase_6.4_all.deb",
         "assets/ubuntu-24.04-amd64/packages/ninja-build_1.11.1-2_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/nvidia-compute-utils-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/nvidia-dkms-595-open_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/nvidia-driver-595-open_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/nvidia-firmware-595-595.99.02_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/nvidia-kernel-common-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/nvidia-kernel-source-595-open_595.99.02-0ubuntu0.24.04.1_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/nvidia-utils-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/ocl-icd-libopencl1_2.3.2-1build1_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/pahole_1.25-0ubuntu3_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/passwd_1%3a4.13+dfsg1-4ubuntu3.2_amd64.deb",
@@ -3525,7 +3621,6 @@
         "assets/ubuntu-24.04-amd64/packages/xkb-data_2.41-2ubuntu1.1_all.deb",
         "assets/ubuntu-24.04-amd64/packages/xserver-common_2%3a21.1.12-1ubuntu1.8_all.deb",
         "assets/ubuntu-24.04-amd64/packages/xserver-xorg-core_2%3a21.1.12-1ubuntu1.8_amd64.deb",
-        "assets/ubuntu-24.04-amd64/packages/xserver-xorg-video-nvidia-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/xz-utils_5.6.1+really5.4.5-1ubuntu0.3_amd64.deb",
         "assets/ubuntu-24.04-amd64/packages/zlib1g_1%3a1.3.dfsg-3.1ubuntu2.2_amd64.deb",
         "assets/ubuntu-24.04-amd64/sources/acl_2.3.2.orig.tar.xz",
@@ -4060,8 +4155,58 @@
         "assets/ubuntu-24.04-amd64/sources/mawk_1.3.4.20240123-1build1.debian.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/sed_4.9.orig.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/sed_4.9-2ubuntu0.24.04.1.debian.tar.xz",
-        "assets/ubuntu-24.04-amd64/sources/sed_4.9-2ubuntu0.24.04.1.dsc"
-      ]
+        "assets/ubuntu-24.04-amd64/sources/sed_4.9-2ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/packages/amd64-microcode_3.20251202.1ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/intel-microcode_3.20260210.0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libnvidia-cfg1-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libnvidia-common-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libnvidia-compute-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libnvidia-decode-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libnvidia-encode-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libnvidia-extra-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libnvidia-fbc1-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libnvidia-gl-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-modules-nvidia-595-open-7.0.0-34-generic_7.0.0-34.34~24.04.1+1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/nvidia-compute-utils-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/nvidia-driver-595-open_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/nvidia-firmware-595-595.91.07_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/nvidia-kernel-common-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/nvidia-kernel-source-595-open_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/nvidia-utils-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/xserver-xorg-video-nvidia-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu0.24.04.1.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/intel-microcode_3.20260210.0ubuntu0.24.04.1.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/intel-microcode_3.20260210.0ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig-amd64.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig-arm64.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-amd-graphics_20240318.git3b128b60-0ubuntu3.3_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-amd-misc_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-broadcom-wireless_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-intel-graphics_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-intel-misc_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-intel-wireless_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-marvell-prestera_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-marvell-wireless_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-mediatek_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-mellanox-spectrum_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-misc_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-netronome_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-nvidia-graphics_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-qlogic_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-qualcomm-graphics_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-qualcomm-misc_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-qualcomm-wireless_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware-realtek_20240318.git3b128b60-0ubuntu3.1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/linux-firmware_20240318.git3b128b60.0ubuntu3.1_all.deb"
+      ],
+      "driver_version": "595.91.07",
+      "driver_recovery": "Ubuntu prebuilt open module for the recorded kernel"
     },
     "llm-49": {
       "role": "llm-49",
@@ -4882,7 +5027,42 @@
         "assets/ubuntu-26.04-amd64/sources/mawk_1.3.4.20260129-1.debian.tar.xz",
         "assets/ubuntu-26.04-amd64/sources/sed_4.9.orig.tar.xz",
         "assets/ubuntu-26.04-amd64/sources/sed_4.9-2ubuntu1.debian.tar.xz",
-        "assets/ubuntu-26.04-amd64/sources/sed_4.9-2ubuntu1.dsc"
+        "assets/ubuntu-26.04-amd64/sources/sed_4.9-2ubuntu1.dsc",
+        "assets/ubuntu-26.04-amd64/packages/3cpio_0.14.0-1ubuntu1_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/amd64-microcode_3.20251202.1ubuntu2_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/intel-microcode_3.20260210.1ubuntu2_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/iucode-tool_2.3.1-3build2_amd64.deb",
+        "assets/ubuntu-26.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu2.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu2.dsc",
+        "assets/ubuntu-26.04-amd64/sources/intel-microcode_3.20260210.1ubuntu2.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/intel-microcode_3.20260210.1ubuntu2.dsc",
+        "assets/ubuntu-26.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz.asc",
+        "assets/ubuntu-26.04-amd64/sources/iucode-tool_2.3.1-3build2.debian.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/iucode-tool_2.3.1-3build2.dsc",
+        "assets/ubuntu-26.04-amd64/sources/rust-threecpio_0.14.0.orig-rust-vendor.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/rust-threecpio_0.14.0.orig.tar.gz",
+        "assets/ubuntu-26.04-amd64/sources/rust-threecpio_0.14.0-1ubuntu1.debian.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/rust-threecpio_0.14.0-1ubuntu1.dsc",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-amd-graphics_20260319.git217ca6e4-0ubuntu3.1_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-amd-misc_20260319.git217ca6e4-0ubuntu1.1_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-broadcom-wireless_20260319.git217ca6e4-0ubuntu1.1_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-intel-graphics_20260319.git217ca6e4-0ubuntu2.1_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-intel-misc_20260319.git217ca6e4-0ubuntu1.2_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-intel-wireless_20260319.git217ca6e4-0ubuntu2.1_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-marvell-prestera_20260319.git217ca6e4-0ubuntu1.2_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-marvell-wireless_20260319.git217ca6e4-0ubuntu1.1_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-mediatek_20260319.git217ca6e4-0ubuntu1.2_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-mellanox-spectrum_20260319.git217ca6e4-0ubuntu1.1_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-misc_20260319.git217ca6e4-0ubuntu2.2_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-netronome_20260319.git217ca6e4-0ubuntu1.1_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-nvidia-graphics_20260319.git217ca6e4-0ubuntu1.1_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-qlogic_20260319.git217ca6e4-0ubuntu1.1_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-qualcomm-graphics_20260319.git217ca6e4-0ubuntu1.1_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-qualcomm-misc_20260319.git217ca6e4-0ubuntu2.1_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-qualcomm-wireless_20260319.git217ca6e4-0ubuntu1.2_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware-realtek_20260319.git217ca6e4-0ubuntu1.2_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/linux-firmware_20260319.git217ca6e4.1ubuntu_all.deb"
       ]
     },
     "llm-79": {
@@ -5504,7 +5684,23 @@
         "assets/ubuntu-26.04-amd64/sources/shadow_4.17.4-2ubuntu3.dsc",
         "assets/ubuntu-26.04-amd64/sources/sysvinit_3.15.orig.tar.gz",
         "assets/ubuntu-26.04-amd64/sources/sysvinit_3.15-5ubuntu1.debian.tar.xz",
-        "assets/ubuntu-26.04-amd64/sources/sysvinit_3.15-5ubuntu1.dsc"
+        "assets/ubuntu-26.04-amd64/sources/sysvinit_3.15-5ubuntu1.dsc",
+        "assets/ubuntu-26.04-amd64/packages/3cpio_0.14.0-1ubuntu1_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/amd64-microcode_3.20251202.1ubuntu2_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/intel-microcode_3.20260210.1ubuntu2_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/iucode-tool_2.3.1-3build2_amd64.deb",
+        "assets/ubuntu-26.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu2.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu2.dsc",
+        "assets/ubuntu-26.04-amd64/sources/intel-microcode_3.20260210.1ubuntu2.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/intel-microcode_3.20260210.1ubuntu2.dsc",
+        "assets/ubuntu-26.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz.asc",
+        "assets/ubuntu-26.04-amd64/sources/iucode-tool_2.3.1-3build2.debian.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/iucode-tool_2.3.1-3build2.dsc",
+        "assets/ubuntu-26.04-amd64/sources/rust-threecpio_0.14.0.orig-rust-vendor.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/rust-threecpio_0.14.0.orig.tar.gz",
+        "assets/ubuntu-26.04-amd64/sources/rust-threecpio_0.14.0-1ubuntu1.debian.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/rust-threecpio_0.14.0-1ubuntu1.dsc"
       ]
     }
   },
@@ -5568,6 +5764,15 @@
       "sha256": "542aff2395eb912a56833e11a78076342779689d8fede7adcf08d1d6b0d0cd8b",
       "bytes": 100872,
       "path": "assets/ubuntu-24.04-amd64/packages/adduser_3.137ubuntu1_all.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "amd64-microcode_3.20251202.1ubuntu0.24.04.1_amd64.deb",
+      "sha256": "75f6860067115841864a4aaa2468665f9f398d3142a8a8b12ad07ebe9e00e4db",
+      "bytes": 458436,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/amd64-microcode_3.20251202.1ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/amd64-microcode_3.20251202.1ubuntu0.24.04.1_amd64.deb",
       "kind": "deb"
     },
     {
@@ -5960,6 +6165,15 @@
       "sha256": "8eb801f9ce084dab9bf4cbc3ec0ee5ac75516a4cc1f25e3f92298c632e75b700",
       "bytes": 39402,
       "path": "assets/ubuntu-24.04-amd64/packages/init-system-helpers_1.66ubuntu1_all.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "intel-microcode_3.20260210.0ubuntu0.24.04.1_amd64.deb",
+      "sha256": "bc68035481205a190f937f50e69eb1a1ca7fc209de7dfebe88c921387e328eb5",
+      "bytes": 13542214,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/intel-microcode_3.20260210.0ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/intel-microcode_3.20260210.0ubuntu0.24.04.1_amd64.deb",
       "kind": "deb"
     },
     {
@@ -6838,6 +7052,15 @@
       "kind": "deb"
     },
     {
+      "name": "libnvidia-cfg1-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "sha256": "4ad6a640ccc9612d8db11a60b0b432be79a6506dac05b7c8ad6d8a205beb5db7",
+      "bytes": 158634,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/libnvidia-cfg1-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/libnvidia-cfg1-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "libnvidia-cfg1-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
       "sha256": "051cd6b2efb4a174c87c6f9fcaabe83b8be3294ddea3e3fadd7d199124968309",
       "bytes": 158614,
@@ -6849,6 +7072,15 @@
       "sha256": "f8e8d82545b1c31dc8de50a6bdb9d262c75a0bd458df97cf862f09539ef8857b",
       "bytes": 18608,
       "path": "assets/ubuntu-24.04-amd64/packages/libnvidia-common-580_580.178.04-0ubuntu0.24.04.1_all.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "libnvidia-common-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "sha256": "deee8e79ea0eb3517dc6da386cd0dfa79af41f19d3a4121da51c7d95fc2e8859",
+      "bytes": 18360,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/libnvidia-common-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/libnvidia-common-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
       "kind": "deb"
     },
     {
@@ -6866,6 +7098,15 @@
       "kind": "deb"
     },
     {
+      "name": "libnvidia-compute-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "sha256": "285e9a350f7294c37b530801bcce4fc0f02ee5b3ecae1a0e397bef1d97c5653d",
+      "bytes": 85956302,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/libnvidia-compute-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/libnvidia-compute-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "libnvidia-compute-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
       "sha256": "28379112ad1566f739331a87fbbaaffaa7e4522f54afff076de5a58d3f6ac013",
       "bytes": 85948928,
@@ -6877,6 +7118,15 @@
       "sha256": "71f12eb743a748242773858b331da36110c9a8012aee15bdfc6468e81b615d7c",
       "bytes": 3172296,
       "path": "assets/ubuntu-24.04-amd64/packages/libnvidia-decode-580_580.178.04-0ubuntu0.24.04.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "libnvidia-decode-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "sha256": "b74222c2ffdb2d0f48f778044c1c52ffba993ec071980359ea70a3b5045c15dc",
+      "bytes": 3070392,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/libnvidia-decode-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/libnvidia-decode-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
       "kind": "deb"
     },
     {
@@ -6908,6 +7158,15 @@
       "kind": "deb"
     },
     {
+      "name": "libnvidia-encode-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "sha256": "83ca5fe94f1b6a4ced9e16e83cb97198ee8e37b6dadac8bd5f3a23c57618dd76",
+      "bytes": 118704,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/libnvidia-encode-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/libnvidia-encode-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "libnvidia-encode-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
       "sha256": "25738146466955c0d6c6e86a9ab55da9c035871439121219a121bd328613e22c",
       "bytes": 118726,
@@ -6919,6 +7178,15 @@
       "sha256": "c0d42daa3e9b7382c6b76f4e1fbc0ab863b1d96979406a7f4ab22c8f1c14917b",
       "bytes": 78326,
       "path": "assets/ubuntu-24.04-amd64/packages/libnvidia-extra-580_580.178.04-0ubuntu0.24.04.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "libnvidia-extra-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "sha256": "4b7b7192cbc1caf21bce696c100b8562f12075b4a69b27f6c12449b86362e5de",
+      "bytes": 77334,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/libnvidia-extra-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/libnvidia-extra-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
       "kind": "deb"
     },
     {
@@ -6936,6 +7204,15 @@
       "kind": "deb"
     },
     {
+      "name": "libnvidia-fbc1-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "sha256": "4e3d0f19d6367eded50654d95d49bf330c8d0b362e4f2f40db1d5af9a0ad9f44",
+      "bytes": 94224,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/libnvidia-fbc1-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/libnvidia-fbc1-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "libnvidia-fbc1-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
       "sha256": "727d3cf28ebbf11ab82878a3923b1d32d9f5473377f86645c9f081364eb16706",
       "bytes": 94242,
@@ -6947,6 +7224,15 @@
       "sha256": "d75a237c2052abe37c222bb053320323cec5d007aceba755aa70f3bffc254082",
       "bytes": 172815832,
       "path": "assets/ubuntu-24.04-amd64/packages/libnvidia-gl-580_580.178.04-0ubuntu0.24.04.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "libnvidia-gl-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "sha256": "14283e1ca43f5ad453812a7d06ba3b438d616cdbb3e4ed01785b36f202101189",
+      "bytes": 139192764,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/libnvidia-gl-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/libnvidia-gl-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
       "kind": "deb"
     },
     {
@@ -7839,6 +8125,15 @@
       "kind": "deb"
     },
     {
+      "name": "linux-modules-nvidia-595-open-7.0.0-34-generic_7.0.0-34.34~24.04.1+1_amd64.deb",
+      "sha256": "0309a19fe38a72fe30ac241cd8ce9e0aa349dec975e51652d3f7c74c345436ea",
+      "bytes": 8322606,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/linux-modules-nvidia-595-open-7.0.0-34-generic_7.0.0-34.34~24.04.1+1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/linux-modules-nvidia-595-open-7.0.0-34-generic_7.0.0-34.34~24.04.1+1_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "linux-objects-nvidia-580-7.0.0-31-generic_7.0.0-31.31~24.04.1+1_amd64.deb",
       "sha256": "3f5c61f3ace0d0b1e5967b91dc912df4586e92e3337005921cb8b9d4e47d9f60",
       "bytes": 98185592,
@@ -7993,6 +8288,15 @@
       "kind": "deb"
     },
     {
+      "name": "nvidia-compute-utils-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "sha256": "cdce96ee8a6b39c17621d90d83098e0f3b433d04e1657a8ba60c275e5d499d5b",
+      "bytes": 135022,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/nvidia-compute-utils-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/nvidia-compute-utils-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "nvidia-compute-utils-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
       "sha256": "14c8b73f9c1fa9a5e7137eff32096b8868cc86b69a104cd4948ddea2b8a7640f",
       "bytes": 134998,
@@ -8021,6 +8325,15 @@
       "kind": "deb"
     },
     {
+      "name": "nvidia-driver-595-open_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "sha256": "4e8d54b3bedf0fbde487f2df7fbb2cd72cfa0e42cc9031e482d1544058aed268",
+      "bytes": 14014,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/nvidia-driver-595-open_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/nvidia-driver-595-open_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "nvidia-driver-595-open_595.99.02-0ubuntu0.24.04.1_amd64.deb",
       "sha256": "72209b5b289aaa5d6770fbd398807cd4d8c397f01517bcb0400b544f3ccd5177",
       "bytes": 14042,
@@ -8032,6 +8345,15 @@
       "sha256": "f1aa627d2d0c17a924fa447abd6729c047292cc0d7c8c7104eafd8b73a2fcc19",
       "bytes": 76021116,
       "path": "assets/ubuntu-24.04-amd64/packages/nvidia-firmware-580-580.178.04_580.178.04-0ubuntu0.24.04.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "nvidia-firmware-595-595.91.07_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "sha256": "360d93469608748a46d063058357553bfb0975df1eb6a60d8dc8d8032d949952",
+      "bytes": 74975180,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/nvidia-firmware-595-595.91.07_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/nvidia-firmware-595-595.91.07_595.91.07-0ubuntu0.24.04.1_amd64.deb",
       "kind": "deb"
     },
     {
@@ -8049,6 +8371,15 @@
       "kind": "deb"
     },
     {
+      "name": "nvidia-kernel-common-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "sha256": "dd9cca39b9235622c40682290f73d27e49111021b0c22346bb7f8374a611f15d",
+      "bytes": 823900,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/nvidia-kernel-common-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/nvidia-kernel-common-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "nvidia-kernel-common-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
       "sha256": "102b6ca64d2782163409e786b423361778d1f94e13a71c5649e8ba328fe5e6c2",
       "bytes": 823900,
@@ -8063,6 +8394,15 @@
       "kind": "deb"
     },
     {
+      "name": "nvidia-kernel-source-595-open_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "sha256": "56d65487016ec399cccfa30be1f693e988bc37dd9875141ba8092707bb5ed44a",
+      "bytes": 8362488,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/nvidia-kernel-source-595-open_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/nvidia-kernel-source-595-open_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "nvidia-kernel-source-595-open_595.99.02-0ubuntu0.24.04.1_amd64.deb",
       "sha256": "044d64f8a78426bc8e3315474a32657dd609d33a75c8d7bf727d5f94f701fae0",
       "bytes": 8361922,
@@ -8074,6 +8414,15 @@
       "sha256": "7b1bc1132ac04e69214c1c9f4190d702727fa55b1f5e2a7be91f79a2173d09e7",
       "bytes": 601424,
       "path": "assets/ubuntu-24.04-amd64/packages/nvidia-utils-580_580.178.04-0ubuntu0.24.04.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "nvidia-utils-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "sha256": "7e090f2776b54795987f842554655011804d3b085115e9236821905f7a8a4744",
+      "bytes": 609398,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/nvidia-utils-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/nvidia-utils-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
       "kind": "deb"
     },
     {
@@ -8350,6 +8699,15 @@
       "kind": "deb"
     },
     {
+      "name": "xserver-xorg-video-nvidia-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "sha256": "22ff09fdaba41b10972c34877b5320274fc58116dd0f8ea9d9069aaad146ae9f",
+      "bytes": 1207652,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/xserver-xorg-video-nvidia-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
+      "path": "assets/ubuntu-24.04-amd64/packages/xserver-xorg-video-nvidia-595_595.91.07-0ubuntu0.24.04.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "xserver-xorg-video-nvidia-595_595.99.02-0ubuntu0.24.04.1_amd64.deb",
       "sha256": "95b5f1b518e8aad3785d68b6d46ed68c558f1c7cbe6fe16029367e21dba52bb8",
       "bytes": 1207524,
@@ -8429,6 +8787,26 @@
       "path": "assets/ubuntu-24.04-amd64/sources/adduser_3.137ubuntu1.tar.xz",
       "kind": "source",
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/a/adduser/adduser_3.137ubuntu1.tar.xz"
+    },
+    {
+      "source_package": "amd64-microcode",
+      "version": "3.20251202.1ubuntu0.24.04.1",
+      "name": "amd64-microcode_3.20251202.1ubuntu0.24.04.1.dsc",
+      "sha256": "682c198473874a4767ecb3b97aa19813f7ffac85a79b8695cda220bcc95c0db8",
+      "bytes": 1530,
+      "path": "assets/ubuntu-24.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu0.24.04.1.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/a/amd64-microcode/amd64-microcode_3.20251202.1ubuntu0.24.04.1.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "amd64-microcode",
+      "version": "3.20251202.1ubuntu0.24.04.1",
+      "name": "amd64-microcode_3.20251202.1ubuntu0.24.04.1.tar.xz",
+      "sha256": "3feb6b5689ee89ebf773f01d5bfa6477e58e8dc5e836d0222a523290a55ec12c",
+      "bytes": 445548,
+      "path": "assets/ubuntu-24.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu0.24.04.1.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/a/amd64-microcode/amd64-microcode_3.20251202.1ubuntu0.24.04.1.tar.xz",
+      "kind": "source"
     },
     {
       "source_package": "apparmor",
@@ -10005,6 +10383,26 @@
       "path": "assets/ubuntu-24.04-amd64/sources/init-system-helpers_1.66ubuntu1.tar.xz",
       "kind": "source",
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/init-system-helpers/init-system-helpers_1.66ubuntu1.tar.xz"
+    },
+    {
+      "source_package": "intel-microcode",
+      "version": "3.20260210.0ubuntu0.24.04.1",
+      "name": "intel-microcode_3.20260210.0ubuntu0.24.04.1.dsc",
+      "sha256": "bc0805998e25eeea848a9dd19bfae594679049b8b3f6157455d265da5d3d1de1",
+      "bytes": 1636,
+      "path": "assets/ubuntu-24.04-amd64/sources/intel-microcode_3.20260210.0ubuntu0.24.04.1.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/intel-microcode/intel-microcode_3.20260210.0ubuntu0.24.04.1.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "intel-microcode",
+      "version": "3.20260210.0ubuntu0.24.04.1",
+      "name": "intel-microcode_3.20260210.0ubuntu0.24.04.1.tar.xz",
+      "sha256": "cf83dbf8a5b47f067e1867b6e24c6eabf3e89812b85557641b5ca71af734691d",
+      "bytes": 14287792,
+      "path": "assets/ubuntu-24.04-amd64/sources/intel-microcode_3.20260210.0ubuntu0.24.04.1.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/intel-microcode/intel-microcode_3.20260210.0ubuntu0.24.04.1.tar.xz",
+      "kind": "source"
     },
     {
       "source_package": "isl",
@@ -12864,6 +13262,30 @@
     },
     {
       "source_package": "linux-restricted-signatures-hwe-7.0",
+      "version": "7.0.0-34.34~24.04.1+1",
+      "name": "linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.dsc",
+      "sha256": "f4e29a08c9f18736280176c270bfc631d790ab63555550fd17aaaad5fc4370e8",
+      "bytes": 4403,
+      "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/linux-restricted-signatures-hwe-7.0/7.0.0-34.34~24.04.1+1/linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.dsc",
+      "metadata_origin": "Official Launchpad source descriptor for older kernel version",
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/linux-restricted-signatures-hwe-7.0/7.0.0-34.34~24.04.1+1/linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.dsc",
+      "path": "assets/ubuntu-24.04-amd64/sources/linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "linux-restricted-signatures-hwe-7.0",
+      "version": "7.0.0-34.34~24.04.1+1",
+      "name": "linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.tar.xz",
+      "sha256": "0da17e4cc94918c80aba6ad5ca23b800c310a8ab52155a2aee1f8141d5a461e3",
+      "bytes": 11020,
+      "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/linux-restricted-signatures-hwe-7.0/7.0.0-34.34~24.04.1+1/linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.tar.xz",
+      "metadata_origin": "Official Launchpad source descriptor for older kernel version",
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/linux-restricted-signatures-hwe-7.0/7.0.0-34.34~24.04.1+1/linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.tar.xz",
+      "path": "assets/ubuntu-24.04-amd64/sources/linux-restricted-signatures-hwe-7.0_7.0.0-34.34~24.04.1+1.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "linux-restricted-signatures-hwe-7.0",
       "version": "7.0.0-38.38~24.04.4+1",
       "name": "linux-restricted-signatures-hwe-7.0_7.0.0-38.38~24.04.4+1.dsc",
       "sha256": "55af76648dccb6eb3cef73409d0a340895fd8475d40f61991bb8c00a2bbbead4",
@@ -13659,6 +14081,66 @@
       "path": "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-580_580.178.04.orig.tar.gz",
       "kind": "source",
       "origin": "https://archive.ubuntu.com/ubuntu/pool/restricted/n/nvidia-graphics-drivers-580/nvidia-graphics-drivers-580_580.178.04.orig.tar.gz"
+    },
+    {
+      "source_package": "nvidia-graphics-drivers-595",
+      "version": "595.91.07-0ubuntu0.24.04.1",
+      "name": "nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.debian.tar.xz",
+      "sha256": "ffad99df6182b74fa932cb204d1c40839452b51ce53a5858a94368fd2d39cbfa",
+      "bytes": 53320,
+      "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/nvidia-graphics-drivers-595/595.91.07-0ubuntu0.24.04.1/nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.debian.tar.xz",
+      "metadata_origin": "Official Launchpad source descriptor for older kernel version",
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/nvidia-graphics-drivers-595/595.91.07-0ubuntu0.24.04.1/nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.debian.tar.xz",
+      "path": "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.debian.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "nvidia-graphics-drivers-595",
+      "version": "595.91.07-0ubuntu0.24.04.1",
+      "name": "nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.dsc",
+      "sha256": "e1df584323a0e94d63624e267aef9a70b15fe57fa5b4332dd360d63909199f84",
+      "bytes": 5088,
+      "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/nvidia-graphics-drivers-595/595.91.07-0ubuntu0.24.04.1/nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.dsc",
+      "metadata_origin": "Official Launchpad source descriptor for older kernel version",
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/nvidia-graphics-drivers-595/595.91.07-0ubuntu0.24.04.1/nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.dsc",
+      "path": "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07-0ubuntu0.24.04.1.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "nvidia-graphics-drivers-595",
+      "version": "595.91.07-0ubuntu0.24.04.1",
+      "name": "nvidia-graphics-drivers-595_595.91.07.orig-amd64.tar.gz",
+      "sha256": "45e3bb481e3036cf1d46e057379f618b254f7ef51768e4247a26d6aabb8196c7",
+      "bytes": 422110310,
+      "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/nvidia-graphics-drivers-595/595.91.07-0ubuntu0.24.04.1/nvidia-graphics-drivers-595_595.91.07.orig-amd64.tar.gz",
+      "metadata_origin": "Official Launchpad source descriptor for older kernel version",
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/nvidia-graphics-drivers-595/595.91.07-0ubuntu0.24.04.1/nvidia-graphics-drivers-595_595.91.07.orig-amd64.tar.gz",
+      "path": "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig-amd64.tar.gz",
+      "kind": "source"
+    },
+    {
+      "source_package": "nvidia-graphics-drivers-595",
+      "version": "595.91.07-0ubuntu0.24.04.1",
+      "name": "nvidia-graphics-drivers-595_595.91.07.orig-arm64.tar.gz",
+      "sha256": "20bc354428e0921eaaf169410bac3be6dfc54e0aba7c96c3064b6f528d85470b",
+      "bytes": 317145395,
+      "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/nvidia-graphics-drivers-595/595.91.07-0ubuntu0.24.04.1/nvidia-graphics-drivers-595_595.91.07.orig-arm64.tar.gz",
+      "metadata_origin": "Official Launchpad source descriptor for older kernel version",
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/nvidia-graphics-drivers-595/595.91.07-0ubuntu0.24.04.1/nvidia-graphics-drivers-595_595.91.07.orig-arm64.tar.gz",
+      "path": "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig-arm64.tar.gz",
+      "kind": "source"
+    },
+    {
+      "source_package": "nvidia-graphics-drivers-595",
+      "version": "595.91.07-0ubuntu0.24.04.1",
+      "name": "nvidia-graphics-drivers-595_595.91.07.orig.tar.gz",
+      "sha256": "8a9fb2b5e61daf67da19d43497e03fab45b6c844136003c92b4c310bd2925402",
+      "bytes": 135,
+      "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/nvidia-graphics-drivers-595/595.91.07-0ubuntu0.24.04.1/nvidia-graphics-drivers-595_595.91.07.orig.tar.gz",
+      "metadata_origin": "Official Launchpad source descriptor for older kernel version",
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/nvidia-graphics-drivers-595/595.91.07-0ubuntu0.24.04.1/nvidia-graphics-drivers-595_595.91.07.orig.tar.gz",
+      "path": "assets/ubuntu-24.04-amd64/sources/nvidia-graphics-drivers-595_595.91.07.orig.tar.gz",
+      "kind": "source"
     },
     {
       "source_package": "nvidia-graphics-drivers-595",
@@ -15121,10 +15603,24 @@
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/z/zlib/zlib_1.3.dfsg.orig.tar.xz"
     },
     {
+      "name": "3cpio_0.14.0-1ubuntu1_amd64.deb",
+      "sha256": "f5c5134cfde8015c24a511b1f3087af7387280ddf009e0d83e92676bf8b9c4ac",
+      "bytes": 285342,
+      "path": "assets/ubuntu-26.04-amd64/packages/3cpio_0.14.0-1ubuntu1_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "adduser_3.153ubuntu1_all.deb",
       "sha256": "78de3c5c3ec5657bcbdc10c2b2bcd9cedd78e6814182566f1522af422b26d3ce",
       "bytes": 194420,
       "path": "assets/ubuntu-26.04-amd64/packages/adduser_3.153ubuntu1_all.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "amd64-microcode_3.20251202.1ubuntu2_amd64.deb",
+      "sha256": "1880a63dc981bfc2fe2c9d18354c3cdea17f925dc77177eb8d68aabec02f716b",
+      "bytes": 458364,
+      "path": "assets/ubuntu-26.04-amd64/packages/amd64-microcode_3.20251202.1ubuntu2_amd64.deb",
       "kind": "deb"
     },
     {
@@ -15496,6 +15992,20 @@
       "sha256": "49c68d09ceaaf5198966cf1e077ae9bf23d345189cb90e564bcd6594fd83a9fd",
       "bytes": 39536,
       "path": "assets/ubuntu-26.04-amd64/packages/init-system-helpers_1.69_all.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "intel-microcode_3.20260210.1ubuntu2_amd64.deb",
+      "sha256": "169b82f23260f6cc918e56601595890f969d9c262c6646f6ab8025c6196938cc",
+      "bytes": 13541026,
+      "path": "assets/ubuntu-26.04-amd64/packages/intel-microcode_3.20260210.1ubuntu2_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "iucode-tool_2.3.1-3build2_amd64.deb",
+      "sha256": "37db865b2f774ae9138f3a5e9ef369a4f39a75775dd78cdcbcb5ba8ce6503f91",
+      "bytes": 44184,
+      "path": "assets/ubuntu-26.04-amd64/packages/iucode-tool_2.3.1-3build2_amd64.deb",
       "kind": "deb"
     },
     {
@@ -17449,6 +17959,26 @@
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/a/adduser/adduser_3.153ubuntu1.tar.xz"
     },
     {
+      "source_package": "amd64-microcode",
+      "version": "3.20251202.1ubuntu2",
+      "name": "amd64-microcode_3.20251202.1ubuntu2.dsc",
+      "sha256": "6ae00b47ab4a89605f5deef8bee2bdf6d3093a1e8d42207b63a8592eea2656d8",
+      "bytes": 1802,
+      "path": "assets/ubuntu-26.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu2.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/a/amd64-microcode/amd64-microcode_3.20251202.1ubuntu2.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "amd64-microcode",
+      "version": "3.20251202.1ubuntu2",
+      "name": "amd64-microcode_3.20251202.1ubuntu2.tar.xz",
+      "sha256": "bc9d78d47d93bc8b93bf1d8a6082726894f374320c84e21a3989cbc851ac5f9a",
+      "bytes": 446844,
+      "path": "assets/ubuntu-26.04-amd64/sources/amd64-microcode_3.20251202.1ubuntu2.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/a/amd64-microcode/amd64-microcode_3.20251202.1ubuntu2.tar.xz",
+      "kind": "source"
+    },
+    {
       "source_package": "attr",
       "version": "1:2.5.2-4ubuntu0.1",
       "name": "attr_2.5.2-4ubuntu0.1.debian.tar.xz",
@@ -18775,6 +19305,26 @@
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/init-system-helpers/init-system-helpers_1.69.tar.xz"
     },
     {
+      "source_package": "intel-microcode",
+      "version": "3.20260210.1ubuntu2",
+      "name": "intel-microcode_3.20260210.1ubuntu2.dsc",
+      "sha256": "8a649f28156ecc1c7573bc318b7af9b6149849eeac47b8eea8cfe2e5e728242a",
+      "bytes": 2007,
+      "path": "assets/ubuntu-26.04-amd64/sources/intel-microcode_3.20260210.1ubuntu2.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/intel-microcode/intel-microcode_3.20260210.1ubuntu2.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "intel-microcode",
+      "version": "3.20260210.1ubuntu2",
+      "name": "intel-microcode_3.20260210.1ubuntu2.tar.xz",
+      "sha256": "b676e72ae724d41b50b52b8eb951989067a41934ee1c5ab5730efed6cc7569f4",
+      "bytes": 14284032,
+      "path": "assets/ubuntu-26.04-amd64/sources/intel-microcode_3.20260210.1ubuntu2.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/intel-microcode/intel-microcode_3.20260210.1ubuntu2.tar.xz",
+      "kind": "source"
+    },
+    {
       "source_package": "isl",
       "version": "0.27-1build1",
       "name": "isl_0.27-1build1.debian.tar.xz",
@@ -18803,6 +19353,46 @@
       "path": "assets/ubuntu-26.04-amd64/sources/isl_0.27.orig.tar.xz",
       "kind": "source",
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/isl/isl_0.27.orig.tar.xz"
+    },
+    {
+      "source_package": "iucode-tool",
+      "version": "2.3.1-3build2",
+      "name": "iucode-tool_2.3.1-3build2.debian.tar.xz",
+      "sha256": "0dc843d4b7ca1698847c2c522f59c1052bcf5e8319daa8ba0506368e54fcbe1f",
+      "bytes": 20220,
+      "path": "assets/ubuntu-26.04-amd64/sources/iucode-tool_2.3.1-3build2.debian.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/iucode-tool/iucode-tool_2.3.1-3build2.debian.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "iucode-tool",
+      "version": "2.3.1-3build2",
+      "name": "iucode-tool_2.3.1-3build2.dsc",
+      "sha256": "e8164e65d5eb05bc6fa1ffb5e2280fa70e66598a6d68c4ec30add324848081b4",
+      "bytes": 2330,
+      "path": "assets/ubuntu-26.04-amd64/sources/iucode-tool_2.3.1-3build2.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/iucode-tool/iucode-tool_2.3.1-3build2.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "iucode-tool",
+      "version": "2.3.1-3build2",
+      "name": "iucode-tool_2.3.1.orig.tar.xz",
+      "sha256": "12b88efa4d0d95af08db05a50b3dcb217c0eb2bfc67b483779e33d498ddb2f95",
+      "bytes": 153380,
+      "path": "assets/ubuntu-26.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/iucode-tool/iucode-tool_2.3.1.orig.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "iucode-tool",
+      "version": "2.3.1-3build2",
+      "name": "iucode-tool_2.3.1.orig.tar.xz.asc",
+      "sha256": "deb2d13a0a367e815f173a77cfc399c731175115383780ef1b4102fcf8208f8e",
+      "bytes": 833,
+      "path": "assets/ubuntu-26.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz.asc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/iucode-tool/iucode-tool_2.3.1.orig.tar.xz.asc",
+      "kind": "source"
     },
     {
       "source_package": "jansson",
@@ -22453,6 +23043,46 @@
       "path": "assets/ubuntu-26.04-amd64/sources/rust-coreutils_0.10.0.orig.tar.gz",
       "kind": "source",
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/r/rust-coreutils/rust-coreutils_0.10.0.orig.tar.gz"
+    },
+    {
+      "source_package": "rust-threecpio",
+      "version": "0.14.0-1ubuntu1",
+      "name": "rust-threecpio_0.14.0-1ubuntu1.debian.tar.xz",
+      "sha256": "c8d88d3edf61c38035afa27b45b1422a8d1ffd9435bb9c74f4a9e886b10507a0",
+      "bytes": 4580,
+      "path": "assets/ubuntu-26.04-amd64/sources/rust-threecpio_0.14.0-1ubuntu1.debian.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/r/rust-threecpio/rust-threecpio_0.14.0-1ubuntu1.debian.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "rust-threecpio",
+      "version": "0.14.0-1ubuntu1",
+      "name": "rust-threecpio_0.14.0-1ubuntu1.dsc",
+      "sha256": "425637d093d9053b40180a708bde5ce8730445b244c3969fce36aa5883578a0c",
+      "bytes": 2699,
+      "path": "assets/ubuntu-26.04-amd64/sources/rust-threecpio_0.14.0-1ubuntu1.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/r/rust-threecpio/rust-threecpio_0.14.0-1ubuntu1.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "rust-threecpio",
+      "version": "0.14.0-1ubuntu1",
+      "name": "rust-threecpio_0.14.0.orig-rust-vendor.tar.xz",
+      "sha256": "ce6db912be113ad5bc31537a732521fb79b455bc66b65418bbeec6a99f8ec59f",
+      "bytes": 423564,
+      "path": "assets/ubuntu-26.04-amd64/sources/rust-threecpio_0.14.0.orig-rust-vendor.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/r/rust-threecpio/rust-threecpio_0.14.0.orig-rust-vendor.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "rust-threecpio",
+      "version": "0.14.0-1ubuntu1",
+      "name": "rust-threecpio_0.14.0.orig.tar.gz",
+      "sha256": "812a2a91b65cfca91cf9187eb8c829c376df2a0b1e8b6aae395c2575a670a160",
+      "bytes": 62266,
+      "path": "assets/ubuntu-26.04-amd64/sources/rust-threecpio_0.14.0.orig.tar.gz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/r/rust-threecpio/rust-threecpio_0.14.0.orig.tar.gz",
+      "kind": "source"
     },
     {
       "source_package": "sed",
