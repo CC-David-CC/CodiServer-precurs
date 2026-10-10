@@ -1,0 +1,10 @@
+/build*/
+*.log
+
+/.recovery/
+/models/
+/runtime/
+*.env
+__pycache__/
+*.pyc
+*.partial

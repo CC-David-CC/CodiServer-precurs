@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# launch scripts keep LF line endings wherever the repository is cloned
+*.sh text eol=lf
+
+/assets/** filter=lfs diff=lfs merge=lfs -text
