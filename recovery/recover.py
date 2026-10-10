@@ -98,11 +98,12 @@ def prepare(root, manifest, profile):
         changed = text.replace('"/usr', '"' + str(sysroot / 'usr'))
         if changed != text:
             path.write_text(changed, encoding='utf-8')
-    if manifest['profiles'][profile]['backend'] == 'cuda':
-        toolkit = work / 'cuda'
+    config = manifest['profiles'][profile]
+    if config.get('sdk_archive'):
+        toolkit = work / config['backend']
         toolkit.mkdir(exist_ok=True)
         for item in manifest['assets']:
-            if item['path'] not in selected or item['kind'] != 'cuda-sdk':
+            if item['path'] not in selected or item['kind'] not in ('cuda-sdk', 'hip-sdk'):
                 continue
             with tarfile.open(local_asset(root, item['path'])) as archive:
                 prefix = item['archive_prefix'] + '/'
@@ -117,7 +118,7 @@ def prepare(root, manifest, profile):
                     members.append(member)
                 archive.extractall(toolkit, members=members, filter=safe_tar_member)
         lib64 = toolkit / 'lib64'
-        if not lib64.exists():
+        if config['backend'] == 'cuda' and not lib64.exists():
             lib64.symlink_to('lib', target_is_directory=True)
     return work
 
@@ -148,12 +149,21 @@ def build(root, manifest, profile, jobs):
                  '-DSTRATA_EXPERIMENTAL_SM60=' + ('ON' if int(config['arch']) < 70 else 'OFF'),
                  '-DCMAKE_CUDA_ARCHITECTURES=' + config['arch'],
                  '-DCMAKE_CUDA_COMPILER=' + str(toolkit / 'bin/nvcc'),
+                 '-DCMAKE_CUDA_HOST_COMPILER=' + str(compiler),
                  '-DCUDAToolkit_ROOT=' + str(toolkit)]
         environment['LD_LIBRARY_PATH'] = str(toolkit / 'lib64') + os.pathsep + str(toolkit / 'lib') + os.pathsep + environment.get('LD_LIBRARY_PATH', '')
     else:
+        if config.get('sdk_archive'):
+            toolkit = prepare(root, manifest, profile) / 'hip'
+            hip_compiler = str(toolkit / config['compiler_relative'])
+        else:
+            toolkit = Path(config['toolkit'])
+            hip_compiler = config['hip_compiler']
         args += ['-DSTRATA_ENABLE_HIP=ON', '-DCMAKE_HIP_ARCHITECTURES=' + config['arch'],
-                 '-DCMAKE_HIP_COMPILER=' + config['hip_compiler'],
-                 '-DCMAKE_HIP_COMPILER_ROCM_ROOT=' + config['toolkit']]
+                 '-DCMAKE_HIP_COMPILER=' + hip_compiler,
+                 '-DCMAKE_HIP_COMPILER_ROCM_ROOT=' + str(toolkit),
+                 '-DCMAKE_PREFIX_PATH=' + str(toolkit)]
+        environment['LD_LIBRARY_PATH'] = str(toolkit / 'lib') + os.pathsep + environment.get('LD_LIBRARY_PATH', '')
         args += config.get('cmake_options', [])
     for tool in (cmake, compiler):
         if not tool.is_file():
