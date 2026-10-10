@@ -895,7 +895,44 @@
         "assets/ubuntu-24.04-amd64/sources/ubuntu-keyring_2023.11.28.1.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2-2build1.dsc",
         "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2.orig.tar.gz",
-        "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2-2build1.debian.tar.xz"
+        "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2-2build1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/packages/busybox-initramfs_1%3a1.36.1-6ubuntu3.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/cpio_2.15+dfsg-1ubuntu2.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/dhcpcd-base_1%3a10.0.6-1ubuntu3.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/dracut-install_060+5-1ubuntu3.4_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/e2fsprogs_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/initramfs-tools-bin_0.142ubuntu25.8_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/initramfs-tools-core_0.142ubuntu25.8_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/initramfs-tools_0.142ubuntu25.8_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/iucode-tool_2.3.1-3build1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/klibc-utils_2.0.13-4ubuntu0.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libext2fs2t64_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libklibc_2.0.13-4ubuntu0.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libss2_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/logsave_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1.orig.tar.bz2",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1.orig.tar.bz2.asc",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1-6ubuntu3.1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1-6ubuntu3.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg.orig.tar.bz2",
+        "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg-1ubuntu2.1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg-1ubuntu2.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6.orig.tar.xz.asc",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6-1ubuntu3.2.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6-1ubuntu3.2.dsc",
+        "assets/ubuntu-24.04-amd64/sources/dracut_060+5.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dracut_060+5-1ubuntu3.4.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dracut_060+5-1ubuntu3.4.dsc",
+        "assets/ubuntu-24.04-amd64/sources/initramfs-tools_0.142ubuntu25.8.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/initramfs-tools_0.142ubuntu25.8.dsc",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1-3build1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz.asc",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1-3build1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.dsc"
       ]
     },
     "r730": {
@@ -1782,7 +1819,44 @@
         "assets/ubuntu-24.04-amd64/sources/ubuntu-keyring_2023.11.28.1.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2-2build1.dsc",
         "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2.orig.tar.gz",
-        "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2-2build1.debian.tar.xz"
+        "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2-2build1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/packages/busybox-initramfs_1%3a1.36.1-6ubuntu3.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/cpio_2.15+dfsg-1ubuntu2.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/dhcpcd-base_1%3a10.0.6-1ubuntu3.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/dracut-install_060+5-1ubuntu3.4_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/e2fsprogs_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/initramfs-tools-bin_0.142ubuntu25.8_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/initramfs-tools-core_0.142ubuntu25.8_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/initramfs-tools_0.142ubuntu25.8_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/iucode-tool_2.3.1-3build1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/klibc-utils_2.0.13-4ubuntu0.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libext2fs2t64_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libklibc_2.0.13-4ubuntu0.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libss2_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/logsave_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1.orig.tar.bz2",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1.orig.tar.bz2.asc",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1-6ubuntu3.1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1-6ubuntu3.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg.orig.tar.bz2",
+        "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg-1ubuntu2.1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg-1ubuntu2.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6.orig.tar.xz.asc",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6-1ubuntu3.2.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6-1ubuntu3.2.dsc",
+        "assets/ubuntu-24.04-amd64/sources/dracut_060+5.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dracut_060+5-1ubuntu3.4.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dracut_060+5-1ubuntu3.4.dsc",
+        "assets/ubuntu-24.04-amd64/sources/initramfs-tools_0.142ubuntu25.8.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/initramfs-tools_0.142ubuntu25.8.dsc",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1-3build1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz.asc",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1-3build1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.dsc"
       ]
     },
     "a5500": {
@@ -2554,7 +2628,84 @@
         "assets/ubuntu-24.04-amd64/sources/ubuntu-keyring_2023.11.28.1.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2-2build1.dsc",
         "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2.orig.tar.gz",
-        "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2-2build1.debian.tar.xz"
+        "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2-2build1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/packages/adduser_3.137ubuntu1_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/busybox-initramfs_1%3a1.36.1-6ubuntu3.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/cpio_2.15+dfsg-1ubuntu2.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/dhcpcd-base_1%3a10.0.6-1ubuntu3.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/dracut-install_060+5-1ubuntu3.4_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/e2fsprogs_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/initramfs-tools-bin_0.142ubuntu25.8_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/initramfs-tools-core_0.142ubuntu25.8_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/initramfs-tools_0.142ubuntu25.8_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/iucode-tool_2.3.1-3build1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/klibc-utils_2.0.13-4ubuntu0.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libapparmor1_4.0.1really4.0.1-0ubuntu0.24.04.8_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libargon2-1_0~20190702+dfsg-4build1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libcryptsetup12_2%3a2.7.0-1ubuntu4.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libdevmapper1.02.1_2%3a1.02.185-3ubuntu3.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libext2fs2t64_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libfdisk1_2.39.3-9ubuntu6.6_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libjson-c5_0.17-1build1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libklibc_2.0.13-4ubuntu0.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libsemanage-common_3.5-1build5_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/libsemanage2_3.5-1build5_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libsepol2_3.5-2build1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libss2_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libsystemd-shared_255.4-1ubuntu8.17_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/logsave_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/passwd_1%3a4.13+dfsg1-4ubuntu3.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/systemd-dev_255.4-1ubuntu8.17_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/systemd_255.4-1ubuntu8.17_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/udev_255.4-1ubuntu8.17_amd64.deb",
+        "assets/ubuntu-24.04-amd64/sources/adduser_3.137ubuntu1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/adduser_3.137ubuntu1.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/apparmor_4.0.1really4.0.1.orig.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/apparmor_4.0.1really4.0.1-0ubuntu0.24.04.8.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/apparmor_4.0.1really4.0.1-0ubuntu0.24.04.8.dsc",
+        "assets/ubuntu-24.04-amd64/sources/argon2_0~20190702+dfsg-4build1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/argon2_0~20190702+dfsg.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/argon2_0~20190702+dfsg-4build1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1.orig.tar.bz2",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1.orig.tar.bz2.asc",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1-6ubuntu3.1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1-6ubuntu3.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg.orig.tar.bz2",
+        "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg-1ubuntu2.1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg-1ubuntu2.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/cryptsetup_2.7.0.orig.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/cryptsetup_2.7.0-1ubuntu4.2.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/cryptsetup_2.7.0-1ubuntu4.2.dsc",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6.orig.tar.xz.asc",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6-1ubuntu3.2.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6-1ubuntu3.2.dsc",
+        "assets/ubuntu-24.04-amd64/sources/dracut_060+5.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dracut_060+5-1ubuntu3.4.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dracut_060+5-1ubuntu3.4.dsc",
+        "assets/ubuntu-24.04-amd64/sources/initramfs-tools_0.142ubuntu25.8.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/initramfs-tools_0.142ubuntu25.8.dsc",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1-3build1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz.asc",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1-3build1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/json-c_0.17-1build1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/json-c_0.17.orig.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/json-c_0.17-1build1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.dsc",
+        "assets/ubuntu-24.04-amd64/sources/libsemanage_3.5-1build5.dsc",
+        "assets/ubuntu-24.04-amd64/sources/libsemanage_3.5.orig.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/libsemanage_3.5.orig.tar.gz.asc",
+        "assets/ubuntu-24.04-amd64/sources/libsemanage_3.5-1build5.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/libsepol_3.5-2build1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/libsepol_3.5.orig.tar.gz",
+        "assets/ubuntu-24.04-amd64/sources/libsepol_3.5.orig.tar.gz.asc",
+        "assets/ubuntu-24.04-amd64/sources/libsepol_3.5-2build1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/lvm2_2.03.16.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/lvm2_2.03.16-3ubuntu3.2.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/lvm2_2.03.16-3ubuntu3.2.dsc"
       ]
     },
     "llm-60": {
@@ -3444,7 +3595,44 @@
         "assets/ubuntu-24.04-amd64/sources/ubuntu-keyring_2023.11.28.1.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2-2build1.dsc",
         "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2.orig.tar.gz",
-        "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2-2build1.debian.tar.xz"
+        "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2-2build1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/packages/busybox-initramfs_1%3a1.36.1-6ubuntu3.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/cpio_2.15+dfsg-1ubuntu2.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/dhcpcd-base_1%3a10.0.6-1ubuntu3.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/dracut-install_060+5-1ubuntu3.4_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/e2fsprogs_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/initramfs-tools-bin_0.142ubuntu25.8_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/initramfs-tools-core_0.142ubuntu25.8_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/initramfs-tools_0.142ubuntu25.8_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/iucode-tool_2.3.1-3build1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/klibc-utils_2.0.13-4ubuntu0.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libext2fs2t64_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libklibc_2.0.13-4ubuntu0.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libss2_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/logsave_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1.orig.tar.bz2",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1.orig.tar.bz2.asc",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1-6ubuntu3.1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1-6ubuntu3.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg.orig.tar.bz2",
+        "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg-1ubuntu2.1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg-1ubuntu2.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6.orig.tar.xz.asc",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6-1ubuntu3.2.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6-1ubuntu3.2.dsc",
+        "assets/ubuntu-24.04-amd64/sources/dracut_060+5.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dracut_060+5-1ubuntu3.4.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dracut_060+5-1ubuntu3.4.dsc",
+        "assets/ubuntu-24.04-amd64/sources/initramfs-tools_0.142ubuntu25.8.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/initramfs-tools_0.142ubuntu25.8.dsc",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1-3build1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz.asc",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1-3build1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.dsc"
       ],
       "driver_version": "595.91.07",
       "driver_recovery": "Ubuntu prebuilt open module for the recorded kernel"
@@ -4333,7 +4521,44 @@
         "assets/ubuntu-24.04-amd64/sources/ubuntu-keyring_2023.11.28.1.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2-2build1.dsc",
         "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2.orig.tar.gz",
-        "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2-2build1.debian.tar.xz"
+        "assets/ubuntu-24.04-amd64/sources/xxhash_0.8.2-2build1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/packages/busybox-initramfs_1%3a1.36.1-6ubuntu3.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/cpio_2.15+dfsg-1ubuntu2.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/dhcpcd-base_1%3a10.0.6-1ubuntu3.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/dracut-install_060+5-1ubuntu3.4_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/e2fsprogs_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/initramfs-tools-bin_0.142ubuntu25.8_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/initramfs-tools-core_0.142ubuntu25.8_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/initramfs-tools_0.142ubuntu25.8_all.deb",
+        "assets/ubuntu-24.04-amd64/packages/iucode-tool_2.3.1-3build1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/klibc-utils_2.0.13-4ubuntu0.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libext2fs2t64_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libklibc_2.0.13-4ubuntu0.2_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/libss2_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/packages/logsave_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1.orig.tar.bz2",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1.orig.tar.bz2.asc",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1-6ubuntu3.1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1-6ubuntu3.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg.orig.tar.bz2",
+        "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg-1ubuntu2.1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg-1ubuntu2.1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6.orig.tar.xz.asc",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6-1ubuntu3.2.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6-1ubuntu3.2.dsc",
+        "assets/ubuntu-24.04-amd64/sources/dracut_060+5.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dracut_060+5-1ubuntu3.4.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/dracut_060+5-1ubuntu3.4.dsc",
+        "assets/ubuntu-24.04-amd64/sources/initramfs-tools_0.142ubuntu25.8.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/initramfs-tools_0.142ubuntu25.8.dsc",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1-3build1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz.asc",
+        "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1-3build1.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13.orig.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.debian.tar.xz",
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.dsc"
       ],
       "driver_version": "595.91.07",
       "driver_recovery": "Ubuntu prebuilt open module for the recorded kernel"
@@ -5219,7 +5444,36 @@
         "assets/ubuntu-26.04-amd64/sources/libseccomp_2.6.0-2ubuntu5.debian.tar.xz",
         "assets/ubuntu-26.04-amd64/sources/libseccomp_2.6.0-2ubuntu5.dsc",
         "assets/ubuntu-26.04-amd64/sources/ubuntu-keyring_2023.11.28.1build1.tar.xz",
-        "assets/ubuntu-26.04-amd64/sources/ubuntu-keyring_2023.11.28.1build1.dsc"
+        "assets/ubuntu-26.04-amd64/sources/ubuntu-keyring_2023.11.28.1build1.dsc",
+        "assets/ubuntu-26.04-amd64/packages/busybox-initramfs_1%3a1.37.0-7ubuntu1_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/dhcpcd-base_1%3a10.3.0-7_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/dracut-install_110-11ubuntu0.1_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/e2fsprogs_1.47.2-3ubuntu4_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/initramfs-tools-bin_0.151ubuntu1_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/initramfs-tools-core_0.151ubuntu1_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/initramfs-tools_0.151ubuntu1_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/klibc-utils_2.0.14-1ubuntu2_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/libext2fs2t64_1.47.2-3ubuntu4_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/libklibc_2.0.14-1ubuntu2_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/libss2_1.47.2-3ubuntu4_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/logsave_1.47.2-3ubuntu4_amd64.deb",
+        "assets/ubuntu-26.04-amd64/sources/busybox_1.37.0.orig.tar.bz2",
+        "assets/ubuntu-26.04-amd64/sources/busybox_1.37.0.orig.tar.bz2.asc",
+        "assets/ubuntu-26.04-amd64/sources/busybox_1.37.0-7ubuntu1.debian.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/busybox_1.37.0-7ubuntu1.dsc",
+        "assets/ubuntu-26.04-amd64/sources/dhcpcd_10.3.0-7.dsc",
+        "assets/ubuntu-26.04-amd64/sources/dhcpcd_10.3.0.orig.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/dhcpcd_10.3.0.orig.tar.xz.asc",
+        "assets/ubuntu-26.04-amd64/sources/dhcpcd_10.3.0-7.debian.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/dracut_110.orig.tar.gz",
+        "assets/ubuntu-26.04-amd64/sources/dracut_110.orig.tar.gz.asc",
+        "assets/ubuntu-26.04-amd64/sources/dracut_110-11ubuntu0.1.debian.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/dracut_110-11ubuntu0.1.dsc",
+        "assets/ubuntu-26.04-amd64/sources/initramfs-tools_0.151ubuntu1.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/initramfs-tools_0.151ubuntu1.dsc",
+        "assets/ubuntu-26.04-amd64/sources/klibc_2.0.14.orig.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/klibc_2.0.14-1ubuntu2.debian.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/klibc_2.0.14-1ubuntu2.dsc"
       ]
     },
     "llm-79": {
@@ -5884,7 +6138,39 @@
         "assets/ubuntu-26.04-amd64/sources/libseccomp_2.6.0-2ubuntu5.debian.tar.xz",
         "assets/ubuntu-26.04-amd64/sources/libseccomp_2.6.0-2ubuntu5.dsc",
         "assets/ubuntu-26.04-amd64/sources/ubuntu-keyring_2023.11.28.1build1.tar.xz",
-        "assets/ubuntu-26.04-amd64/sources/ubuntu-keyring_2023.11.28.1build1.dsc"
+        "assets/ubuntu-26.04-amd64/sources/ubuntu-keyring_2023.11.28.1build1.dsc",
+        "assets/ubuntu-26.04-amd64/packages/busybox-initramfs_1%3a1.37.0-7ubuntu1_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/dhcpcd-base_1%3a10.3.0-7_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/dracut-install_110-11ubuntu0.1_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/e2fsprogs_1.47.2-3ubuntu4_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/initramfs-tools-bin_0.151ubuntu1_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/initramfs-tools-core_0.151ubuntu1_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/initramfs-tools_0.151ubuntu1_all.deb",
+        "assets/ubuntu-26.04-amd64/packages/klibc-utils_2.0.14-1ubuntu2_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/libext2fs2t64_1.47.2-3ubuntu4_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/libklibc_2.0.14-1ubuntu2_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/libss2_1.47.2-3ubuntu4_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/libsystemd-shared_259.5-0ubuntu3.4_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/logsave_1.47.2-3ubuntu4_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/systemd_259.5-0ubuntu3.4_amd64.deb",
+        "assets/ubuntu-26.04-amd64/packages/udev_259.5-0ubuntu3.4_amd64.deb",
+        "assets/ubuntu-26.04-amd64/sources/busybox_1.37.0.orig.tar.bz2",
+        "assets/ubuntu-26.04-amd64/sources/busybox_1.37.0.orig.tar.bz2.asc",
+        "assets/ubuntu-26.04-amd64/sources/busybox_1.37.0-7ubuntu1.debian.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/busybox_1.37.0-7ubuntu1.dsc",
+        "assets/ubuntu-26.04-amd64/sources/dhcpcd_10.3.0-7.dsc",
+        "assets/ubuntu-26.04-amd64/sources/dhcpcd_10.3.0.orig.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/dhcpcd_10.3.0.orig.tar.xz.asc",
+        "assets/ubuntu-26.04-amd64/sources/dhcpcd_10.3.0-7.debian.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/dracut_110.orig.tar.gz",
+        "assets/ubuntu-26.04-amd64/sources/dracut_110.orig.tar.gz.asc",
+        "assets/ubuntu-26.04-amd64/sources/dracut_110-11ubuntu0.1.debian.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/dracut_110-11ubuntu0.1.dsc",
+        "assets/ubuntu-26.04-amd64/sources/initramfs-tools_0.151ubuntu1.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/initramfs-tools_0.151ubuntu1.dsc",
+        "assets/ubuntu-26.04-amd64/sources/klibc_2.0.14.orig.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/klibc_2.0.14-1ubuntu2.debian.tar.xz",
+        "assets/ubuntu-26.04-amd64/sources/klibc_2.0.14-1ubuntu2.dsc"
       ]
     }
   },
@@ -6016,6 +6302,13 @@
       "kind": "deb"
     },
     {
+      "name": "busybox-initramfs_1%3a1.36.1-6ubuntu3.1_amd64.deb",
+      "sha256": "ca306983a443c8a32d99994f3490e8c6366c0f643c85ab12d835f15a043ec52b",
+      "bytes": 188504,
+      "path": "assets/ubuntu-24.04-amd64/packages/busybox-initramfs_1%3a1.36.1-6ubuntu3.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "bzip2_1.0.8-5.1ubuntu0.1_amd64.deb",
       "sha256": "60fb79214dd8366fa39d7e69911294e72b9f1a4425a3d22f211359c8626e4b9e",
       "bytes": 34560,
@@ -6055,6 +6348,13 @@
       "sha256": "e1e9a17892be0cc83b7cea747edf331ffeb6d6c010b4db296e60d888e8e9274c",
       "bytes": 1413428,
       "path": "assets/ubuntu-24.04-amd64/packages/coreutils_9.4-3ubuntu6.3_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "cpio_2.15+dfsg-1ubuntu2.1_amd64.deb",
+      "sha256": "fbac731755302d218d785b4c391530e7773527f553e24946f9580636a47641b2",
+      "bytes": 83108,
+      "path": "assets/ubuntu-24.04-amd64/packages/cpio_2.15+dfsg-1ubuntu2.1_amd64.deb",
       "kind": "deb"
     },
     {
@@ -6184,6 +6484,13 @@
       "kind": "deb"
     },
     {
+      "name": "dhcpcd-base_1%3a10.0.6-1ubuntu3.2_amd64.deb",
+      "sha256": "606672ce6eec804b6490e261c0afd77bfeedf73ff29aab165a464e1e8df43a43",
+      "bytes": 215178,
+      "path": "assets/ubuntu-24.04-amd64/packages/dhcpcd-base_1%3a10.0.6-1ubuntu3.2_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "diffutils_1%3a3.10-1ubuntu0.1_amd64.deb",
       "sha256": "c2acc7889f1d75986c40bee57c0875c02146a9c8833980abfb0a6c62c52301d3",
       "bytes": 177224,
@@ -6216,6 +6523,20 @@
       "sha256": "ceb6aa4da59fbcb8a3b0549b4280c60b7d849b519859797c8668bdfbe378fb3b",
       "bytes": 1282284,
       "path": "assets/ubuntu-24.04-amd64/packages/dpkg_1.22.6ubuntu6.6_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "dracut-install_060+5-1ubuntu3.4_amd64.deb",
+      "sha256": "89c56859f10c44da8fa6e1fd923511087caaefc733bd8836e6ef6d0f35d73409",
+      "bytes": 32516,
+      "path": "assets/ubuntu-24.04-amd64/packages/dracut-install_060+5-1ubuntu3.4_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "e2fsprogs_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+      "sha256": "1d0fb19dcf14316d04602260871dba3c1441c0ecf3c3bde54eacba35dcc5a40b",
+      "bytes": 600736,
+      "path": "assets/ubuntu-24.04-amd64/packages/e2fsprogs_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
       "kind": "deb"
     },
     {
@@ -6366,6 +6687,27 @@
       "kind": "deb"
     },
     {
+      "name": "initramfs-tools-bin_0.142ubuntu25.8_amd64.deb",
+      "sha256": "556a5afcb16ec4ec36b0bb0f0df6af6eef9a95141b7cca6740d4344cd24a4f0e",
+      "bytes": 21560,
+      "path": "assets/ubuntu-24.04-amd64/packages/initramfs-tools-bin_0.142ubuntu25.8_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "initramfs-tools-core_0.142ubuntu25.8_all.deb",
+      "sha256": "1a26fed5136ae049e5abc33995ac362f7af26bd7470e6a49c596474da0c3e1b8",
+      "bytes": 50458,
+      "path": "assets/ubuntu-24.04-amd64/packages/initramfs-tools-core_0.142ubuntu25.8_all.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "initramfs-tools_0.142ubuntu25.8_all.deb",
+      "sha256": "3a75c03e5d409f4e266b3d908e3278a439a221d0576db55eab588cac9388cefe",
+      "bytes": 9076,
+      "path": "assets/ubuntu-24.04-amd64/packages/initramfs-tools_0.142ubuntu25.8_all.deb",
+      "kind": "deb"
+    },
+    {
       "name": "intel-microcode_3.20260210.0ubuntu0.24.04.1_amd64.deb",
       "sha256": "bc68035481205a190f937f50e69eb1a1ca7fc209de7dfebe88c921387e328eb5",
       "bytes": 13542214,
@@ -6375,10 +6717,24 @@
       "kind": "deb"
     },
     {
+      "name": "iucode-tool_2.3.1-3build1_amd64.deb",
+      "sha256": "d98748475409b4eaaab8477286a5cfe3da95f334b14b3c2a2e06f802560e211a",
+      "bytes": 43850,
+      "path": "assets/ubuntu-24.04-amd64/packages/iucode-tool_2.3.1-3build1_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "keyboard-configuration_1.226ubuntu1.1_all.deb",
       "sha256": "efd41eab2266789a7b43b2f36516860c28f19920d0c656b3cdc2647547f61330",
       "bytes": 212004,
       "path": "assets/ubuntu-24.04-amd64/packages/keyboard-configuration_1.226ubuntu1.1_all.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "klibc-utils_2.0.13-4ubuntu0.2_amd64.deb",
+      "sha256": "b0eae4b03e8c7f2b8c5dfca637183ed62d8e344fdad0aabf623b696eccfa4a36",
+      "bytes": 100170,
+      "path": "assets/ubuntu-24.04-amd64/packages/klibc-utils_2.0.13-4ubuntu0.2_amd64.deb",
       "kind": "deb"
     },
     {
@@ -6809,6 +7165,13 @@
       "kind": "deb"
     },
     {
+      "name": "libext2fs2t64_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+      "sha256": "276686704314749497f1530ff9e62fd0280328be786a28db0cfe2aa31c88119e",
+      "bytes": 221728,
+      "path": "assets/ubuntu-24.04-amd64/packages/libext2fs2t64_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "libfdisk1_2.39.3-9ubuntu6.6_amd64.deb",
       "sha256": "7f67b127d239f51218c1eb63c3b0c219bbf26f450349bed9ad5d9f10a6b80c1b",
       "bytes": 146344,
@@ -7107,6 +7470,13 @@
       "sha256": "0679f198b0128179e46cdf956fb2022c23c758664c00bc8efa0382d509683a8a",
       "bytes": 9490,
       "path": "assets/ubuntu-24.04-amd64/packages/libkeyutils1_1.6.3-3build1_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "libklibc_2.0.13-4ubuntu0.2_amd64.deb",
+      "sha256": "bf0f954755593208ea06f921aa27c45585196b7c44fc4d86c4c3f5c10f5d153e",
+      "bytes": 47304,
+      "path": "assets/ubuntu-24.04-amd64/packages/libklibc_2.0.13-4ubuntu0.2_amd64.deb",
       "kind": "deb"
     },
     {
@@ -7753,6 +8123,13 @@
       "sha256": "b1190bb72359f5fcc47406aa46065eaf4f1ca208085c51224a52b04bedc0b4bb",
       "bytes": 701602,
       "path": "assets/ubuntu-24.04-amd64/packages/libsqlite3-0_3.45.1-1ubuntu2.8_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "libss2_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+      "sha256": "e3b6140b815970461c4312f1dc3d6b1f0d62d99f4ebe2ad087bffa630010035a",
+      "bytes": 16976,
+      "path": "assets/ubuntu-24.04-amd64/packages/libss2_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
       "kind": "deb"
     },
     {
@@ -8420,6 +8797,13 @@
       "sha256": "393cb0ed5c12e5a6c0f8e1f0c035fbc5781c19321f43c7d10733c917fb17e01b",
       "bytes": 201680,
       "path": "assets/ubuntu-24.04-amd64/packages/login_1%3a4.13+dfsg1-4ubuntu3.2_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "logsave_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
+      "sha256": "dba74a557ae28b51b5a5190aefeef611cbf989211b1814282d58a1c536f43b5b",
+      "bytes": 22700,
+      "path": "assets/ubuntu-24.04-amd64/packages/logsave_1.47.0-2.4~exp1ubuntu4.1_amd64.deb",
       "kind": "deb"
     },
     {
@@ -9342,6 +9726,46 @@
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/b/build-essential/build-essential_12.10ubuntu1.tar.xz"
     },
     {
+      "source_package": "busybox",
+      "version": "1:1.36.1-6ubuntu3.1",
+      "name": "busybox_1.36.1-6ubuntu3.1.debian.tar.xz",
+      "sha256": "1c7d785cf1e1d5d09ddc22fe755e14327fb3799878a5d840fc611044ff05f022",
+      "bytes": 84488,
+      "path": "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1-6ubuntu3.1.debian.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/b/busybox/busybox_1.36.1-6ubuntu3.1.debian.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "busybox",
+      "version": "1:1.36.1-6ubuntu3.1",
+      "name": "busybox_1.36.1-6ubuntu3.1.dsc",
+      "sha256": "ffbee3f0383ea5a3e77033c2bcc1978dc9ae00ff8c9d0a362ee32f6e84254be8",
+      "bytes": 2711,
+      "path": "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1-6ubuntu3.1.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/b/busybox/busybox_1.36.1-6ubuntu3.1.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "busybox",
+      "version": "1:1.36.1-6ubuntu3.1",
+      "name": "busybox_1.36.1.orig.tar.bz2",
+      "sha256": "b8cc24c9574d809e7279c3be349795c5d5ceb6fdf19ca709f80cde50e47de314",
+      "bytes": 2525473,
+      "path": "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1.orig.tar.bz2",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/b/busybox/busybox_1.36.1.orig.tar.bz2",
+      "kind": "source"
+    },
+    {
+      "source_package": "busybox",
+      "version": "1:1.36.1-6ubuntu3.1",
+      "name": "busybox_1.36.1.orig.tar.bz2.asc",
+      "sha256": "d4a7082ba3cbc35b2fdb4f132a32e3789de66ce468b7b4858563f5f157c28afe",
+      "bytes": 195,
+      "path": "assets/ubuntu-24.04-amd64/sources/busybox_1.36.1.orig.tar.bz2.asc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/b/busybox/busybox_1.36.1.orig.tar.bz2.asc",
+      "kind": "source"
+    },
+    {
       "source_package": "bzip2",
       "version": "1.0.8-5.1ubuntu0.1",
       "name": "bzip2_1.0.8-5.1ubuntu0.1.debian.tar.bz2",
@@ -9470,6 +9894,36 @@
       "path": "assets/ubuntu-24.04-amd64/sources/coreutils_9.4.orig.tar.xz",
       "kind": "source",
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/c/coreutils/coreutils_9.4.orig.tar.xz"
+    },
+    {
+      "source_package": "cpio",
+      "version": "2.15+dfsg-1ubuntu2.1",
+      "name": "cpio_2.15+dfsg-1ubuntu2.1.debian.tar.xz",
+      "sha256": "2e87b97ce51403330d552ae9573506d6dfeaafef3dc6762f4c336d3473bc6912",
+      "bytes": 20000,
+      "path": "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg-1ubuntu2.1.debian.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/c/cpio/cpio_2.15+dfsg-1ubuntu2.1.debian.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "cpio",
+      "version": "2.15+dfsg-1ubuntu2.1",
+      "name": "cpio_2.15+dfsg-1ubuntu2.1.dsc",
+      "sha256": "a06902bf3a588f6e039da9a0fae98af707114afed82b5e7f7385134ba6db0796",
+      "bytes": 1416,
+      "path": "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg-1ubuntu2.1.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/c/cpio/cpio_2.15+dfsg-1ubuntu2.1.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "cpio",
+      "version": "2.15+dfsg-1ubuntu2.1",
+      "name": "cpio_2.15+dfsg.orig.tar.bz2",
+      "sha256": "9d699d5abad667f5571296190e6739a644ceb24f67677ccb128bb52ae620c579",
+      "bytes": 1632626,
+      "path": "assets/ubuntu-24.04-amd64/sources/cpio_2.15+dfsg.orig.tar.bz2",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/c/cpio/cpio_2.15+dfsg.orig.tar.bz2",
+      "kind": "source"
     },
     {
       "source_package": "cryptsetup",
@@ -9702,6 +10156,46 @@
       "kind": "source"
     },
     {
+      "source_package": "dhcpcd",
+      "version": "1:10.0.6-1ubuntu3.2",
+      "name": "dhcpcd_10.0.6-1ubuntu3.2.debian.tar.xz",
+      "sha256": "e5c56bdfe8d748850b8c2d548be6335f7bf2199cefb96fa2e3d8ca4396dee757",
+      "bytes": 18608,
+      "path": "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6-1ubuntu3.2.debian.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dhcpcd/dhcpcd_10.0.6-1ubuntu3.2.debian.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "dhcpcd",
+      "version": "1:10.0.6-1ubuntu3.2",
+      "name": "dhcpcd_10.0.6-1ubuntu3.2.dsc",
+      "sha256": "7ebf914b0e1b188340c07b3b9e31cab17f1165e03d3ed71ff051022632bbd2c6",
+      "bytes": 2441,
+      "path": "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6-1ubuntu3.2.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dhcpcd/dhcpcd_10.0.6-1ubuntu3.2.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "dhcpcd",
+      "version": "1:10.0.6-1ubuntu3.2",
+      "name": "dhcpcd_10.0.6.orig.tar.xz",
+      "sha256": "779d3ae514e8f24d7449503e1f0a20f5137c773bd04ca98c62386bf81e99f482",
+      "bytes": 269392,
+      "path": "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6.orig.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dhcpcd/dhcpcd_10.0.6.orig.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "dhcpcd",
+      "version": "1:10.0.6-1ubuntu3.2",
+      "name": "dhcpcd_10.0.6.orig.tar.xz.asc",
+      "sha256": "b46b79a0b77981079b26c359fe50b27167e4855106cf2256a6d725091e59da27",
+      "bytes": 488,
+      "path": "assets/ubuntu-24.04-amd64/sources/dhcpcd_10.0.6.orig.tar.xz.asc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dhcpcd/dhcpcd_10.0.6.orig.tar.xz.asc",
+      "kind": "source"
+    },
+    {
       "source_package": "diffutils",
       "version": "1:3.10-1ubuntu0.1",
       "name": "diffutils_3.10-1ubuntu0.1.debian.tar.xz",
@@ -9814,6 +10308,36 @@
       "path": "assets/ubuntu-24.04-amd64/sources/dpkg_1.22.6ubuntu6.6.tar.xz",
       "kind": "source",
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dpkg/dpkg_1.22.6ubuntu6.6.tar.xz"
+    },
+    {
+      "source_package": "dracut",
+      "version": "060+5-1ubuntu3.4",
+      "name": "dracut_060+5-1ubuntu3.4.debian.tar.xz",
+      "sha256": "61f65977a2dad7e8a8ad3f0682e0560fd5e692305945f784ed989129f693479d",
+      "bytes": 26360,
+      "path": "assets/ubuntu-24.04-amd64/sources/dracut_060+5-1ubuntu3.4.debian.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dracut/dracut_060+5-1ubuntu3.4.debian.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "dracut",
+      "version": "060+5-1ubuntu3.4",
+      "name": "dracut_060+5-1ubuntu3.4.dsc",
+      "sha256": "20a019cff84bad7975207aa3ef1d2f476216e92ad1c8040abf819bd4ceccd2c0",
+      "bytes": 2776,
+      "path": "assets/ubuntu-24.04-amd64/sources/dracut_060+5-1ubuntu3.4.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dracut/dracut_060+5-1ubuntu3.4.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "dracut",
+      "version": "060+5-1ubuntu3.4",
+      "name": "dracut_060+5.orig.tar.xz",
+      "sha256": "74ebb69e0bdbd9d960f9909b446a26d02eb584c623d748fa5a22fd6c5b2be183",
+      "bytes": 379172,
+      "path": "assets/ubuntu-24.04-amd64/sources/dracut_060+5.orig.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dracut/dracut_060+5.orig.tar.xz",
+      "kind": "source"
     },
     {
       "source_package": "dwarves",
@@ -10678,6 +11202,26 @@
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/init-system-helpers/init-system-helpers_1.66ubuntu1.tar.xz"
     },
     {
+      "source_package": "initramfs-tools",
+      "version": "0.142ubuntu25.8",
+      "name": "initramfs-tools_0.142ubuntu25.8.dsc",
+      "sha256": "16e75780e879612fdd63b2cfabcee5622020301ac1d075efda97edb4a245fb48",
+      "bytes": 2414,
+      "path": "assets/ubuntu-24.04-amd64/sources/initramfs-tools_0.142ubuntu25.8.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/initramfs-tools/initramfs-tools_0.142ubuntu25.8.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "initramfs-tools",
+      "version": "0.142ubuntu25.8",
+      "name": "initramfs-tools_0.142ubuntu25.8.tar.xz",
+      "sha256": "67f50180e763f40d04cec5a213f753d8147c382582450426a3fc640729becee1",
+      "bytes": 150328,
+      "path": "assets/ubuntu-24.04-amd64/sources/initramfs-tools_0.142ubuntu25.8.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/initramfs-tools/initramfs-tools_0.142ubuntu25.8.tar.xz",
+      "kind": "source"
+    },
+    {
       "source_package": "intel-microcode",
       "version": "3.20260210.0ubuntu0.24.04.1",
       "name": "intel-microcode_3.20260210.0ubuntu0.24.04.1.dsc",
@@ -10726,6 +11270,46 @@
       "path": "assets/ubuntu-24.04-amd64/sources/isl_0.26.orig.tar.xz",
       "kind": "source",
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/isl/isl_0.26.orig.tar.xz"
+    },
+    {
+      "source_package": "iucode-tool",
+      "version": "2.3.1-3build1",
+      "name": "iucode-tool_2.3.1-3build1.debian.tar.xz",
+      "sha256": "8c8d4554e57496631bc32cdbc4c820e762698bdadf5adfd4d569901cef9eb921",
+      "bytes": 20132,
+      "path": "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1-3build1.debian.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/iucode-tool/iucode-tool_2.3.1-3build1.debian.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "iucode-tool",
+      "version": "2.3.1-3build1",
+      "name": "iucode-tool_2.3.1-3build1.dsc",
+      "sha256": "1412d0e2243238b427f64ac6049374f1e96aedea0a2703f75ed8998a5d65eb52",
+      "bytes": 2359,
+      "path": "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1-3build1.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/iucode-tool/iucode-tool_2.3.1-3build1.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "iucode-tool",
+      "version": "2.3.1-3build1",
+      "name": "iucode-tool_2.3.1.orig.tar.xz",
+      "sha256": "12b88efa4d0d95af08db05a50b3dcb217c0eb2bfc67b483779e33d498ddb2f95",
+      "bytes": 153380,
+      "path": "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/iucode-tool/iucode-tool_2.3.1.orig.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "iucode-tool",
+      "version": "2.3.1-3build1",
+      "name": "iucode-tool_2.3.1.orig.tar.xz.asc",
+      "sha256": "deb2d13a0a367e815f173a77cfc399c731175115383780ef1b4102fcf8208f8e",
+      "bytes": 833,
+      "path": "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1.orig.tar.xz.asc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/iucode-tool/iucode-tool_2.3.1.orig.tar.xz.asc",
+      "kind": "source"
     },
     {
       "source_package": "jansson",
@@ -10816,6 +11400,36 @@
       "path": "assets/ubuntu-24.04-amd64/sources/keyutils_1.6.3.orig.tar.gz",
       "kind": "source",
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/k/keyutils/keyutils_1.6.3.orig.tar.gz"
+    },
+    {
+      "source_package": "klibc",
+      "version": "2.0.13-4ubuntu0.2",
+      "name": "klibc_2.0.13-4ubuntu0.2.debian.tar.xz",
+      "sha256": "a01c0638a89f60c63573c021e2a7a1959a4bf83189c095a46cfc528694f1c5ed",
+      "bytes": 27804,
+      "path": "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.debian.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/k/klibc/klibc_2.0.13-4ubuntu0.2.debian.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "klibc",
+      "version": "2.0.13-4ubuntu0.2",
+      "name": "klibc_2.0.13-4ubuntu0.2.dsc",
+      "sha256": "bbe4364559624093cb57c25474da850078c0405ac57f836957d734f728350d14",
+      "bytes": 2132,
+      "path": "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/k/klibc/klibc_2.0.13-4ubuntu0.2.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "klibc",
+      "version": "2.0.13-4ubuntu0.2",
+      "name": "klibc_2.0.13.orig.tar.xz",
+      "sha256": "d673a294f742d59368222ff5c38462d81098c55063799de6fb8a7ba3d4af0436",
+      "bytes": 472720,
+      "path": "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13.orig.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/k/klibc/klibc_2.0.13.orig.tar.xz",
+      "kind": "source"
     },
     {
       "source_package": "kmod",
@@ -16093,6 +16707,13 @@
       "kind": "deb"
     },
     {
+      "name": "busybox-initramfs_1%3a1.37.0-7ubuntu1_amd64.deb",
+      "sha256": "ce2e5af197a7e16931a32470beec9750e6f6c3cb1b1572c936aec0638a6503a2",
+      "bytes": 190892,
+      "path": "assets/ubuntu-26.04-amd64/packages/busybox-initramfs_1%3a1.37.0-7ubuntu1_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "bzip2_1.0.8-6ubuntu0.1_amd64.deb",
       "sha256": "2b17376f006d03c59e90ff1172ee8e1939d42e6df588d522aae070c462540fa4",
       "bytes": 34296,
@@ -16254,6 +16875,13 @@
       "kind": "deb"
     },
     {
+      "name": "dhcpcd-base_1%3a10.3.0-7_amd64.deb",
+      "sha256": "8b58af259355e50864c650dca5f07fc81cd1e3ad87fc5b813048a4653daaefd2",
+      "bytes": 227896,
+      "path": "assets/ubuntu-26.04-amd64/packages/dhcpcd-base_1%3a10.3.0-7_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "diffutils_1%3a3.12-1ubuntu0.1_amd64.deb",
       "sha256": "0d4a3ad7fc06ddf73c250db2c33fb09e6eefd80224d49b6e6e9ee25b65f4ccde",
       "bytes": 176296,
@@ -16279,6 +16907,20 @@
       "sha256": "6e0ee5877c0d27b0d8fbe36387035e8f03074eed055112595ab2e85ac8b5711e",
       "bytes": 1284540,
       "path": "assets/ubuntu-26.04-amd64/packages/dpkg_1.23.7ubuntu1_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "dracut-install_110-11ubuntu0.1_amd64.deb",
+      "sha256": "c4f00013b155a28c726eff14d1d00f70658ba00d5ab874246179d0bd4a72b7dd",
+      "bytes": 46256,
+      "path": "assets/ubuntu-26.04-amd64/packages/dracut-install_110-11ubuntu0.1_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "e2fsprogs_1.47.2-3ubuntu4_amd64.deb",
+      "sha256": "a4343a8c026e1ca8e2e76a5d01abb8c2d6381961a1766b2d2363e3e23cc362ca",
+      "bytes": 613002,
+      "path": "assets/ubuntu-26.04-amd64/packages/e2fsprogs_1.47.2-3ubuntu4_amd64.deb",
       "kind": "deb"
     },
     {
@@ -16422,6 +17064,27 @@
       "kind": "deb"
     },
     {
+      "name": "initramfs-tools-bin_0.151ubuntu1_amd64.deb",
+      "sha256": "83301b7dd2a75b441df2bbfb33effac401c52d5eb61475e206eeaf09151e9db4",
+      "bytes": 24218,
+      "path": "assets/ubuntu-26.04-amd64/packages/initramfs-tools-bin_0.151ubuntu1_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "initramfs-tools-core_0.151ubuntu1_all.deb",
+      "sha256": "09a2413b6d4e5719c795ed9fd3b6b6e3396274513d6d8b232ca79dc6d9ebc46c",
+      "bytes": 50322,
+      "path": "assets/ubuntu-26.04-amd64/packages/initramfs-tools-core_0.151ubuntu1_all.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "initramfs-tools_0.151ubuntu1_all.deb",
+      "sha256": "200dfcaf803d1e311fcf589f116fe232f79cef8f77922f6b3fecdfda9260464c",
+      "bytes": 8506,
+      "path": "assets/ubuntu-26.04-amd64/packages/initramfs-tools_0.151ubuntu1_all.deb",
+      "kind": "deb"
+    },
+    {
       "name": "intel-microcode_3.20260210.1ubuntu2_amd64.deb",
       "sha256": "169b82f23260f6cc918e56601595890f969d9c262c6646f6ab8025c6196938cc",
       "bytes": 13541026,
@@ -16440,6 +17103,13 @@
       "sha256": "65b766338253578922435d755873baae2c4c008623181eb85ff7ddbfbfe7cf32",
       "bytes": 211372,
       "path": "assets/ubuntu-26.04-amd64/packages/keyboard-configuration_1.237ubuntu3.1_all.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "klibc-utils_2.0.14-1ubuntu2_amd64.deb",
+      "sha256": "642657e87e56184a3d696f35019531ece1f7fd1b220c3df79776e7dba756cc16",
+      "bytes": 100130,
+      "path": "assets/ubuntu-26.04-amd64/packages/klibc-utils_2.0.14-1ubuntu2_amd64.deb",
       "kind": "deb"
     },
     {
@@ -16786,6 +17456,13 @@
       "kind": "deb"
     },
     {
+      "name": "libext2fs2t64_1.47.2-3ubuntu4_amd64.deb",
+      "sha256": "0c58fa90fcb38c1bcc0dbce47b105c60c990128e0220b087f4513d82499d404e",
+      "bytes": 229694,
+      "path": "assets/ubuntu-26.04-amd64/packages/libext2fs2t64_1.47.2-3ubuntu4_amd64.deb",
+      "kind": "deb"
+    },
+    {
       "name": "libffi8_3.5.2-4_amd64.deb",
       "sha256": "4a7423124bbd459c0aa38b7389ec7802fa6899654767a95fc27de70967fedd48",
       "bytes": 26348,
@@ -17000,6 +17677,13 @@
       "sha256": "ea7d3cc642ffe2459c35a85c894f80e92499b9eba13bdcb225e0aa751c0970be",
       "bytes": 10634,
       "path": "assets/ubuntu-26.04-amd64/packages/libkeyutils1_1.6.3-6ubuntu3_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "libklibc_2.0.14-1ubuntu2_amd64.deb",
+      "sha256": "a09471ffaac8fbd48194007a4400325a9e0ec69eabbdcc23916011b4060c777e",
+      "bytes": 47498,
+      "path": "assets/ubuntu-26.04-amd64/packages/libklibc_2.0.14-1ubuntu2_amd64.deb",
       "kind": "deb"
     },
     {
@@ -17434,6 +18118,13 @@
       "sha256": "ff4b5a1e7c028a4bcc30076e4d8197aad1a910df44f4dc8dcf253e9ee9a3a367",
       "bytes": 719538,
       "path": "assets/ubuntu-26.04-amd64/packages/libsqlite3-0_3.46.1-9ubuntu0.3_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "libss2_1.47.2-3ubuntu4_amd64.deb",
+      "sha256": "08d28bd0e1402f45c1e7c9b28cc65ec55442876217c9f553e8836c0622a71509",
+      "bytes": 17910,
+      "path": "assets/ubuntu-26.04-amd64/packages/libss2_1.47.2-3ubuntu4_amd64.deb",
       "kind": "deb"
     },
     {
@@ -17959,6 +18650,13 @@
       "sha256": "111fc79f9da4f281d8a4cf367e0e29a30f94365b00621ae57686453dc3ab031c",
       "bytes": 85932,
       "path": "assets/ubuntu-26.04-amd64/packages/login_1%3a4.16.0-2+really2.41.3-3ubuntu2.2_amd64.deb",
+      "kind": "deb"
+    },
+    {
+      "name": "logsave_1.47.2-3ubuntu4_amd64.deb",
+      "sha256": "465cb25b468c5f6e883f3ae46c044506e14cdd1aed539a9cc19ce1be8a31d517",
+      "bytes": 27632,
+      "path": "assets/ubuntu-26.04-amd64/packages/logsave_1.47.2-3ubuntu4_amd64.deb",
       "kind": "deb"
     },
     {
@@ -18681,6 +19379,46 @@
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/b/build-essential/build-essential_12.12ubuntu2.26.04.2.tar.xz"
     },
     {
+      "source_package": "busybox",
+      "version": "1:1.37.0-7ubuntu1",
+      "name": "busybox_1.37.0-7ubuntu1.debian.tar.xz",
+      "sha256": "5b97c2c2e4f259cccb57f5613d7261e8a0e2b94c4c3e55e2a907bb4cc1186915",
+      "bytes": 80004,
+      "path": "assets/ubuntu-26.04-amd64/sources/busybox_1.37.0-7ubuntu1.debian.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/b/busybox/busybox_1.37.0-7ubuntu1.debian.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "busybox",
+      "version": "1:1.37.0-7ubuntu1",
+      "name": "busybox_1.37.0-7ubuntu1.dsc",
+      "sha256": "125ebeae728a614d5c93687307d342037baade55599c10bc8c2e927e70d1ffab",
+      "bytes": 2703,
+      "path": "assets/ubuntu-26.04-amd64/sources/busybox_1.37.0-7ubuntu1.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/b/busybox/busybox_1.37.0-7ubuntu1.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "busybox",
+      "version": "1:1.37.0-7ubuntu1",
+      "name": "busybox_1.37.0.orig.tar.bz2",
+      "sha256": "3311dff32e746499f4df0d5df04d7eb396382d7e108bb9250e7b519b837043a4",
+      "bytes": 2565764,
+      "path": "assets/ubuntu-26.04-amd64/sources/busybox_1.37.0.orig.tar.bz2",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/b/busybox/busybox_1.37.0.orig.tar.bz2",
+      "kind": "source"
+    },
+    {
+      "source_package": "busybox",
+      "version": "1:1.37.0-7ubuntu1",
+      "name": "busybox_1.37.0.orig.tar.bz2.asc",
+      "sha256": "771f2b06609b670e9c7f864832ece85a661dc7e5e6505a8e82436940fea5c7f8",
+      "bytes": 232,
+      "path": "assets/ubuntu-26.04-amd64/sources/busybox_1.37.0.orig.tar.bz2.asc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/b/busybox/busybox_1.37.0.orig.tar.bz2.asc",
+      "kind": "source"
+    },
+    {
       "source_package": "bzip2",
       "version": "1.0.8-6ubuntu0.1",
       "name": "bzip2_1.0.8-6ubuntu0.1.debian.tar.bz2",
@@ -19031,6 +19769,46 @@
       "kind": "source"
     },
     {
+      "source_package": "dhcpcd",
+      "version": "1:10.3.0-7",
+      "name": "dhcpcd_10.3.0-7.debian.tar.xz",
+      "sha256": "7b532a51de4bbc588c9581131ab9786cb7345b2828c615875bf9d61e8ddff8f8",
+      "bytes": 20316,
+      "path": "assets/ubuntu-26.04-amd64/sources/dhcpcd_10.3.0-7.debian.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dhcpcd/dhcpcd_10.3.0-7.debian.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "dhcpcd",
+      "version": "1:10.3.0-7",
+      "name": "dhcpcd_10.3.0-7.dsc",
+      "sha256": "8c0dae8e92c5acdd4bb0c3902ee254cf15e9e93d3579e6207b244ee093234c9f",
+      "bytes": 2401,
+      "path": "assets/ubuntu-26.04-amd64/sources/dhcpcd_10.3.0-7.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dhcpcd/dhcpcd_10.3.0-7.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "dhcpcd",
+      "version": "1:10.3.0-7",
+      "name": "dhcpcd_10.3.0.orig.tar.xz",
+      "sha256": "06e4c1aaf958523f3fd1c57258c613c6c7ae56b8f1d678fa7943495d5ea6aeb5",
+      "bytes": 279100,
+      "path": "assets/ubuntu-26.04-amd64/sources/dhcpcd_10.3.0.orig.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dhcpcd/dhcpcd_10.3.0.orig.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "dhcpcd",
+      "version": "1:10.3.0-7",
+      "name": "dhcpcd_10.3.0.orig.tar.xz.asc",
+      "sha256": "80cd561c533992aaca451239f6a33ac8addca5bf49d8e0273e03689ee91c3856",
+      "bytes": 488,
+      "path": "assets/ubuntu-26.04-amd64/sources/dhcpcd_10.3.0.orig.tar.xz.asc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dhcpcd/dhcpcd_10.3.0.orig.tar.xz.asc",
+      "kind": "source"
+    },
+    {
       "source_package": "diffutils",
       "version": "1:3.12-1ubuntu0.1",
       "name": "diffutils_3.12-1ubuntu0.1.debian.tar.xz",
@@ -19113,6 +19891,46 @@
       "path": "assets/ubuntu-26.04-amd64/sources/dpkg_1.23.7ubuntu1.tar.xz",
       "kind": "source",
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dpkg/dpkg_1.23.7ubuntu1.tar.xz"
+    },
+    {
+      "source_package": "dracut",
+      "version": "110-11ubuntu0.1",
+      "name": "dracut_110-11ubuntu0.1.debian.tar.xz",
+      "sha256": "319578c132e66d63a9e947b7c328cc24628911c209b1275cfca05eb479917a60",
+      "bytes": 62576,
+      "path": "assets/ubuntu-26.04-amd64/sources/dracut_110-11ubuntu0.1.debian.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dracut/dracut_110-11ubuntu0.1.debian.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "dracut",
+      "version": "110-11ubuntu0.1",
+      "name": "dracut_110-11ubuntu0.1.dsc",
+      "sha256": "b7c0870a68a6b9081f7393c134d24de9dab4f9b902abefbe2569ffac6ecd6c5c",
+      "bytes": 3307,
+      "path": "assets/ubuntu-26.04-amd64/sources/dracut_110-11ubuntu0.1.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dracut/dracut_110-11ubuntu0.1.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "dracut",
+      "version": "110-11ubuntu0.1",
+      "name": "dracut_110.orig.tar.gz",
+      "sha256": "6afbc8e02df55a54540c79b4ee77fcb90ed274cd4619cf224449cd1ccee8c59e",
+      "bytes": 573547,
+      "path": "assets/ubuntu-26.04-amd64/sources/dracut_110.orig.tar.gz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dracut/dracut_110.orig.tar.gz",
+      "kind": "source"
+    },
+    {
+      "source_package": "dracut",
+      "version": "110-11ubuntu0.1",
+      "name": "dracut_110.orig.tar.gz.asc",
+      "sha256": "ac2ed5fe5fe5fa894e1dc45d3c5a6063ae08b8daee2bc799baa9765aa95d46db",
+      "bytes": 228,
+      "path": "assets/ubuntu-26.04-amd64/sources/dracut_110.orig.tar.gz.asc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/d/dracut/dracut_110.orig.tar.gz.asc",
+      "kind": "source"
     },
     {
       "source_package": "dwarves",
@@ -19827,6 +20645,26 @@
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/init-system-helpers/init-system-helpers_1.69.tar.xz"
     },
     {
+      "source_package": "initramfs-tools",
+      "version": "0.151ubuntu1",
+      "name": "initramfs-tools_0.151ubuntu1.dsc",
+      "sha256": "72ca4d69dcd524faa58a2a684ada9f16c44cc17b4c37efdf19134a46a428bcdd",
+      "bytes": 2390,
+      "path": "assets/ubuntu-26.04-amd64/sources/initramfs-tools_0.151ubuntu1.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/initramfs-tools/initramfs-tools_0.151ubuntu1.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "initramfs-tools",
+      "version": "0.151ubuntu1",
+      "name": "initramfs-tools_0.151ubuntu1.tar.xz",
+      "sha256": "124cf769c4c4349ed03e03d98bd2e95c0583ef2824bcfd96ea89a3bb6bdd73d2",
+      "bytes": 162636,
+      "path": "assets/ubuntu-26.04-amd64/sources/initramfs-tools_0.151ubuntu1.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/i/initramfs-tools/initramfs-tools_0.151ubuntu1.tar.xz",
+      "kind": "source"
+    },
+    {
       "source_package": "intel-microcode",
       "version": "3.20260210.1ubuntu2",
       "name": "intel-microcode_3.20260210.1ubuntu2.dsc",
@@ -19975,6 +20813,36 @@
       "path": "assets/ubuntu-26.04-amd64/sources/keyutils_1.6.3.orig.tar.gz",
       "kind": "source",
       "origin": "https://archive.ubuntu.com/ubuntu/pool/main/k/keyutils/keyutils_1.6.3.orig.tar.gz"
+    },
+    {
+      "source_package": "klibc",
+      "version": "2.0.14-1ubuntu2",
+      "name": "klibc_2.0.14-1ubuntu2.debian.tar.xz",
+      "sha256": "2c133ecf665c3a938fb372b12834ffaa3555d50a236aa50a6870fafc0bc52b3a",
+      "bytes": 27952,
+      "path": "assets/ubuntu-26.04-amd64/sources/klibc_2.0.14-1ubuntu2.debian.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/k/klibc/klibc_2.0.14-1ubuntu2.debian.tar.xz",
+      "kind": "source"
+    },
+    {
+      "source_package": "klibc",
+      "version": "2.0.14-1ubuntu2",
+      "name": "klibc_2.0.14-1ubuntu2.dsc",
+      "sha256": "7670ec6890f065b80b62a4696745e18ccea5ab9933c92c2e7ae5e4a5b8524ff4",
+      "bytes": 2298,
+      "path": "assets/ubuntu-26.04-amd64/sources/klibc_2.0.14-1ubuntu2.dsc",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/k/klibc/klibc_2.0.14-1ubuntu2.dsc",
+      "kind": "source"
+    },
+    {
+      "source_package": "klibc",
+      "version": "2.0.14-1ubuntu2",
+      "name": "klibc_2.0.14.orig.tar.xz",
+      "sha256": "281bfb683e196818412af70b8968b7726475a80ff1c4bd67119e6bf5059f9075",
+      "bytes": 466560,
+      "path": "assets/ubuntu-26.04-amd64/sources/klibc_2.0.14.orig.tar.xz",
+      "origin": "https://archive.ubuntu.com/ubuntu/pool/main/k/klibc/klibc_2.0.14.orig.tar.xz",
+      "kind": "source"
     },
     {
       "source_package": "kmod",
