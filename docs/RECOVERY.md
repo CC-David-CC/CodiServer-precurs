@@ -27,8 +27,13 @@ validation. Consult `RECOVERY_VALIDATION.md` for actual results.
 3. Reboot if kernel/driver restoration requires it. Secure Boot may require normal
    local module-signing/enrollment for DKMS drivers.
 4. Run `python3 recovery/recover.py build --profile MACHINE --jobs 6`.
-5. Check `.recovery/MACHINE/build/codi-server --help`, then run with existing model,
+5. Check `python3 recovery/recover.py run --profile MACHINE -- --help`, then run with existing model,
    expert pack and draft head. The default address is loopback.
+
+Use the run helper to select SDK libraries for the selected profile. A raw binary
+on an installed ROCm machine can pick up that machine's libraries instead of the
+extracted recovery SDK; the helper puts the recovery SDK first in the runtime
+library path. It performs no dependency download or system installation.
 
 Python 3 and APT are standard Ubuntu prerequisites. Python's offline packages are
 included, but the helper cannot bootstrap itself without Python. Restore it using

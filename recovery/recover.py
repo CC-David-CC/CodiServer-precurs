@@ -7,6 +7,7 @@ import os
 from pathlib import Path
 import platform
 import subprocess
+import sys
 import tarfile
 
 
@@ -198,13 +199,31 @@ def install_packages(root, manifest, profile):
                     '-o', 'Dir::Etc::sourceparts=-', 'install', *packages], check=True)
 
 
+def run_server(root, manifest, profile, arguments):
+    config = manifest['profiles'][profile]
+    check_platform(config)
+    work = root / '.recovery' / profile
+    binary = work / 'build/codi-server'
+    if not binary.is_file():
+        raise ValueError('Build this profile before running its server')
+    toolkit = work / config['backend'] if config.get('sdk_archive') else Path(config['toolkit'])
+    environment = dict(os.environ)
+    environment['LD_LIBRARY_PATH'] = str(toolkit / 'lib64') + os.pathsep + str(toolkit / 'lib') + os.pathsep + environment.get('LD_LIBRARY_PATH', '')
+    subprocess.run([str(binary), *arguments], env=environment, check=True)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command', choices=('verify', 'prepare', 'build', 'install-packages'))
+    parser.add_argument('command', choices=('verify', 'prepare', 'build', 'install-packages', 'run'))
     parser.add_argument('--profile', help='Machine profile from recovery/manifest.json')
     parser.add_argument('--include-sources', action='store_true')
     parser.add_argument('--jobs', type=int, default=6)
-    args = parser.parse_args()
+    cli = sys.argv[1:]
+    separator = cli.index('--') if '--' in cli else len(cli)
+    server_arguments = cli[separator + 1:]
+    args = parser.parse_args(cli[:separator])
+    if server_arguments and args.command != 'run':
+        parser.error('Arguments after -- are only supported by run')
     manifest = json.loads((REPO / 'recovery/manifest.json').read_text(encoding='utf-8'))
     if args.profile and args.profile not in manifest['profiles']:
         parser.error('Unknown profile; choose ' + ', '.join(manifest['profiles']))
@@ -220,6 +239,8 @@ def main():
             print('Prepared local tools: ' + str(prepare(REPO, manifest, args.profile)))
         elif args.command == 'build':
             build(REPO, manifest, args.profile, args.jobs)
+        elif args.command == 'run':
+            run_server(REPO, manifest, args.profile, server_arguments)
         else:
             install_packages(REPO, manifest, args.profile)
     except (OSError, ValueError, subprocess.CalledProcessError, tarfile.TarError) as error:

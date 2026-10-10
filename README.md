@@ -47,7 +47,7 @@ change installed drivers.
 python3 recovery/recover.py verify --profile middle-child
 sudo python3 recovery/recover.py install-packages --profile middle-child
 python3 recovery/recover.py build --profile middle-child --jobs 6
-.recovery/middle-child/build/codi-server --help
+python3 recovery/recover.py run --profile middle-child -- --help
 ```
 
 APT downloads are disabled. The build uses restored system compilers and bundled
@@ -58,14 +58,16 @@ source. Tests and limitations are recorded in [validation](docs/RECOVERY_VALIDAT
 Supply your existing model shards, expert pack and prepared draft head:
 
 ```sh
-.recovery/middle-child/build/codi-server \
+python3 recovery/recover.py run --profile middle-child -- \
   --model /path/to/model-00001-of-00002.gguf \
   --pack /path/to/pack --mtp /path/to/mtp
 ```
 
 Endpoints: `GET /health`, `GET /v1/models`, and `POST /v1/chat/completions`, with
 streaming and non-streaming replies. The native engine CLI is available as
-`codi-server --engine ...`. The HTTP frontend retains Robert's single-model
+`run --profile MACHINE -- --engine ...`. The run helper selects the matching SDK
+runtime libraries locally; it does not reinstall packages or verify the entire
+multi-gigabyte payload on every server start. The HTTP frontend retains Robert's single-model
 workflow; native multi-GPU support does not imply HTTP multi-GPU support.
 
 ## Provenance

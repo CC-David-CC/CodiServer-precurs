@@ -1,0 +1,48 @@
+{
+  "host": "llm-49",
+  "kernel": "7.0.0-38-generic",
+  "build_steps": [
+    {
+      "step": 0,
+      "exit": 0
+    },
+    {
+      "step": 1,
+      "exit": 0
+    },
+    {
+      "step": 2,
+      "exit": 0
+    },
+    {
+      "step": 3,
+      "exit": 0
+    }
+  ],
+  "native_tests": {
+    "host": "llm-49",
+    "network_disabled": true,
+    "targets": [
+      "commit_limit_test",
+      "secondary_refill_lifetime_fixture",
+      "iq_avx2_parity",
+      "qsa_select_bench",
+      "dense_q8_t8_test"
+    ],
+    "exit": 0
+  },
+  "native_test_summary": [
+    "7/9 Test  #93: dense_q8_t8_test ....................***Skipped   0.10 sec",
+    "100% tests passed, 0 tests failed out of 9",
+    "Total Test time (real) =   5.43 sec",
+    "\t 93 - dense_q8_t8_test (Skipped)"
+  ],
+  "server_sha256": "6b491396589dfa824ff217f8eda2f3fe7e9e9658763225d5e0aa9c34eeb4a09d",
+  "source_sha256": {
+    "CMakeLists.txt": "29135ab9e9d4566f112631724615694efbaadd992b1ad33cf100018fe24c4741",
+    "frontend/main.cpp": "a59885cb9f2d8cf6da2711720e4a47dafc8cbf169b37c7f1a63883243e3c07a1",
+    "frontend/engine_entry.cpp": "3f7186a976a9ac2fe676aca0dae44f1d1dd2eeedb561806316eb2bdc30caa046",
+    "third_party/ggml/ggml-common.h": "0061131b615c5721fc88a78feeb22c1f8c450f1c2646a317d80796a653bf595c",
+    "recovery/recover.py": "39ee0047b326896bcffd51560727393389c73f971e153607a81f77ef1304e6f7"
+  }
+}

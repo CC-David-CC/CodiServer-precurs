@@ -1,0 +1,44 @@
+{
+  "host": "llm-79",
+  "kernel": "7.0.0-38-generic",
+  "build_steps": [
+    {
+      "step": 0,
+      "exit": 0
+    },
+    {
+      "step": 1,
+      "exit": 0
+    },
+    {
+      "step": 2,
+      "exit": 0
+    },
+    {
+      "step": 3,
+      "exit": 0
+    }
+  ],
+  "native_tests": {
+    "host": "llm-79",
+    "network_disabled": true,
+    "targets": [
+      "commit_limit_test",
+      "iq_avx2_parity",
+      "qsa_select_bench"
+    ],
+    "exit": 0
+  },
+  "native_test_summary": [
+    "100% tests passed, 0 tests failed out of 6",
+    "Total Test time (real) =   3.91 sec"
+  ],
+  "server_sha256": "8c642a14cf49dce182e31ed7764109e33f0d204b10beddb2dc198ae3a4a2d13d",
+  "source_sha256": {
+    "CMakeLists.txt": "29135ab9e9d4566f112631724615694efbaadd992b1ad33cf100018fe24c4741",
+    "frontend/main.cpp": "a59885cb9f2d8cf6da2711720e4a47dafc8cbf169b37c7f1a63883243e3c07a1",
+    "frontend/engine_entry.cpp": "3f7186a976a9ac2fe676aca0dae44f1d1dd2eeedb561806316eb2bdc30caa046",
+    "third_party/ggml/ggml-common.h": "0061131b615c5721fc88a78feeb22c1f8c450f1c2646a317d80796a653bf595c",
+    "recovery/recover.py": "38c0df121e93520ef7b9355caec99d893e41ce355a749adaa9ac9007e02abfbe"
+  }
+}
