@@ -3638,7 +3638,10 @@
         "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1-3build1.debian.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13.orig.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.debian.tar.xz",
-        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.dsc"
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.dsc",
+        "assets/ubuntu-24.04-amd64/packages/linux-modules-nvidia-595-open-generic-hwe-24.04_7.0.0-34.34~24.04.1+1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/sources/linux-restricted-modules-hwe-7.0_7.0.0-34.34~24.04.1+1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/linux-restricted-modules-hwe-7.0_7.0.0-34.34~24.04.1+1.tar.xz"
       ],
       "driver_version": "595.91.07",
       "driver_recovery": "Ubuntu prebuilt open module for the recorded kernel",
@@ -4566,7 +4569,10 @@
         "assets/ubuntu-24.04-amd64/sources/iucode-tool_2.3.1-3build1.debian.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13.orig.tar.xz",
         "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.debian.tar.xz",
-        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.dsc"
+        "assets/ubuntu-24.04-amd64/sources/klibc_2.0.13-4ubuntu0.2.dsc",
+        "assets/ubuntu-24.04-amd64/packages/linux-modules-nvidia-595-open-generic-hwe-24.04_7.0.0-34.34~24.04.1+1_amd64.deb",
+        "assets/ubuntu-24.04-amd64/sources/linux-restricted-modules-hwe-7.0_7.0.0-34.34~24.04.1+1.dsc",
+        "assets/ubuntu-24.04-amd64/sources/linux-restricted-modules-hwe-7.0_7.0.0-34.34~24.04.1+1.tar.xz"
       ],
       "driver_version": "595.91.07",
       "driver_recovery": "Ubuntu prebuilt open module for the recorded kernel",
@@ -8886,6 +8892,14 @@
       "metadata_origin": "Official Ubuntu Launchpad archive; exact Package/Version/Architecture checked against installed package metadata",
       "path": "assets/ubuntu-24.04-amd64/packages/linux-modules-nvidia-595-open-7.0.0-34-generic_7.0.0-34.34~24.04.1+1_amd64.deb",
       "kind": "deb"
+    },
+    {
+      "path": "assets/ubuntu-24.04-amd64/packages/linux-modules-nvidia-595-open-generic-hwe-24.04_7.0.0-34.34~24.04.1+1_amd64.deb",
+      "name": "linux-modules-nvidia-595-open-generic-hwe-24.04_7.0.0-34.34~24.04.1+1_amd64.deb",
+      "kind": "deb",
+      "sha256": "0379574bd9f035476c6d545c02f5a2602ae74c15b53e6ef91b8d0ccd297cde7b",
+      "bytes": 6348,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+files/linux-modules-nvidia-595-open-generic-hwe-24.04_7.0.0-34.34~24.04.1+1_amd64.deb"
     },
     {
       "name": "linux-objects-nvidia-580-7.0.0-31-generic_7.0.0-31.31~24.04.1+1_amd64.deb",
@@ -14599,6 +14613,26 @@
       "path": "assets/ubuntu-24.04-amd64/sources/linux-restricted-modules-hwe-7.0_7.0.0-31.31~24.04.1+1.tar.xz",
       "kind": "source",
       "origin": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/linux-restricted-modules-hwe-7.0/7.0.0-31.31~24.04.1+1/linux-restricted-modules-hwe-7.0_7.0.0-31.31~24.04.1+1.tar.xz"
+    },
+    {
+      "path": "assets/ubuntu-24.04-amd64/sources/linux-restricted-modules-hwe-7.0_7.0.0-34.34~24.04.1+1.dsc",
+      "name": "linux-restricted-modules-hwe-7.0_7.0.0-34.34~24.04.1+1.dsc",
+      "kind": "source",
+      "source_package": "linux-restricted-modules-hwe-7.0",
+      "version": "7.0.0-34.34~24.04.1+1",
+      "sha256": "a66062eecd229e13ed9b099409184be277c3762e8ebf4c2e0a155caf4df86d39",
+      "bytes": 30686,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/linux-restricted-modules-hwe-7.0/7.0.0-34.34~24.04.1+1/linux-restricted-modules-hwe-7.0_7.0.0-34.34~24.04.1+1.dsc"
+    },
+    {
+      "path": "assets/ubuntu-24.04-amd64/sources/linux-restricted-modules-hwe-7.0_7.0.0-34.34~24.04.1+1.tar.xz",
+      "name": "linux-restricted-modules-hwe-7.0_7.0.0-34.34~24.04.1+1.tar.xz",
+      "kind": "source",
+      "source_package": "linux-restricted-modules-hwe-7.0",
+      "version": "7.0.0-34.34~24.04.1+1",
+      "sha256": "c0f1a992f1ffc96ee0b974ec1b67cbeded8847745c8fa8485d010ea1a6ee3820",
+      "bytes": 23876,
+      "origin": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/linux-restricted-modules-hwe-7.0/7.0.0-34.34~24.04.1+1/linux-restricted-modules-hwe-7.0_7.0.0-34.34~24.04.1+1.tar.xz"
     },
     {
       "source_package": "linux-restricted-modules-hwe-7.0",
