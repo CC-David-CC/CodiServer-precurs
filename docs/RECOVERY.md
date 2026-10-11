@@ -40,6 +40,6 @@ included, but the helper cannot bootstrap itself without Python. Restore it usin
 offline APT from the matching package directory first. `prepare` extracts packages
 for inspection; it does not replace explicit system-package restoration.
 
-Live host drivers are not replaced to test this kit. Offline dependency-solver
-checks and disconnected build results are reported separately; a simulated APT
-restore is not a tested bare-metal recovery.
+Live host drivers are not replaced to test this kit. Actual offline package configuration in isolated roots and disconnected source
+builds pass on all seven hosts. Cold boot and Secure Boot enrollment remain
+untested. See RECOVERY_VALIDATION.md for the exact scope and remaining checks.

@@ -1,0 +1,503 @@
+{
+  "payload_revision": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
+  "engine_source_revision": "46cabe8013f40452070c7421d0ecd28fbb1a0d7a",
+  "publication": "paused",
+  "cold_boot_tested": false,
+  "certificate_enrollment_tested": false,
+  "hosts": [
+    {
+      "host": "middle-child",
+      "head": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
+      "secure_boot": "no EFI SecureBoot variable",
+      "acquisition-result": {
+        "profile": "middle-child",
+        "head": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
+        "git_lfs_from_box_git": true,
+        "full_kit": false,
+        "incremental_update": true,
+        "offline_hash_verification": true
+      },
+      "isolated-build-result": {
+        "profile": "middle-child",
+        "network_disabled": true,
+        "host_tools_hidden": true,
+        "restoration": "extracted package/SDK payloads",
+        "exit": 0
+      },
+      "isolated-native-tests-result": {
+        "profile": "middle-child",
+        "network_disabled": true,
+        "bundled_userspace": true,
+        "host_kernel_driver": true,
+        "targets": [
+          "commit_limit_test",
+          "iq_avx2_parity",
+          "qsa_select_bench",
+          "secondary_refill_lifetime_fixture",
+          "dense_q8_t8_test"
+        ],
+        "exit": 0,
+        "tests": 9,
+        "skipped": [
+          "dense_q8_t8_test"
+        ],
+        "failed": [],
+        "passed": 4,
+        "not_exercised": [
+          "iq_avx2_parity",
+          "iq_avx2_parity_iq3s_mt1",
+          "iq_avx2_parity_no_iq512",
+          "iq_avx2_parity_ggml"
+        ]
+      },
+      "isolated-install-result": {
+        "profile": "middle-child",
+        "exit": 0,
+        "network_disabled": true,
+        "live_system_unchanged": true,
+        "local_packages": 337,
+        "host_devices_not_mounted": true,
+        "real_package_configuration": true,
+        "helper_exit": 0
+      },
+      "driver-coverage": {
+        "profile": "middle-child",
+        "loaded_module_packages": [
+          "linux-modules-7.0.0-38-generic"
+        ],
+        "missing_module_packages": [],
+        "unowned_modules": [
+          "nvidia_uvm",
+          "nvidia_drm",
+          "nvidia_modeset",
+          "nvidia"
+        ],
+        "installed_microcode": [
+          "intel-microcode",
+          "amd64-microcode"
+        ],
+        "missing_microcode": []
+      },
+      "server_sha256": "d1502280b72a2095ae5fde9851702642516d57704c7f7e1c0a64a3cc649f9ebe"
+    },
+    {
+      "host": "a5500",
+      "head": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
+      "secure_boot": "disabled",
+      "acquisition-result": {
+        "profile": "a5500",
+        "head": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
+        "git_lfs_from_box_git": true,
+        "full_kit": false,
+        "incremental_update": true,
+        "offline_hash_verification": true
+      },
+      "isolated-build-result": {
+        "profile": "a5500",
+        "network_disabled": true,
+        "host_tools_hidden": true,
+        "restoration": "extracted package/SDK payloads",
+        "exit": 0
+      },
+      "isolated-native-tests-result": {
+        "profile": "a5500",
+        "network_disabled": true,
+        "bundled_userspace": true,
+        "host_kernel_driver": true,
+        "targets": [
+          "commit_limit_test",
+          "iq_avx2_parity",
+          "qsa_select_bench"
+        ],
+        "exit": 0,
+        "tests": 6,
+        "skipped": [],
+        "failed": [],
+        "passed": 6
+      },
+      "isolated-install-result": {
+        "profile": "a5500",
+        "exit": 0,
+        "network_disabled": true,
+        "live_system_unchanged": true,
+        "local_packages": 293,
+        "host_devices_not_mounted": true,
+        "real_package_configuration": true,
+        "helper_exit": 0
+      },
+      "driver-coverage": {
+        "profile": "a5500",
+        "loaded_module_packages": [
+          "linux-modules-7.0.0-34-generic"
+        ],
+        "missing_module_packages": [],
+        "unowned_modules": [],
+        "installed_microcode": [
+          "intel-microcode",
+          "amd64-microcode"
+        ],
+        "missing_microcode": []
+      },
+      "server_sha256": "b931f0b3eb97af744419f83d4a0cc190f637508995ae1e93a647a6d0b3b08c0d",
+      "isolated-api-result": {
+        "profile": "a5500",
+        "network": "isolated loopback only",
+        "existing_models_excluded_from_kit": true,
+        "startup_seconds": 7.01,
+        "models_endpoint": true,
+        "unary_generation": true,
+        "completion_tokens": 2,
+        "streaming_generation": true,
+        "stream_matches_unary": true,
+        "invalid_request_400": true,
+        "passed": true
+      }
+    },
+    {
+      "host": "llm-60",
+      "head": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
+      "secure_boot": "disabled",
+      "acquisition-result": {
+        "profile": "llm-60",
+        "head": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
+        "git_lfs_from_box_git": true,
+        "full_kit": true,
+        "incremental_update": true,
+        "offline_hash_verification": true
+      },
+      "isolated-build-result": {
+        "profile": "llm-60",
+        "network_disabled": true,
+        "host_tools_hidden": true,
+        "restoration": "extracted package/SDK payloads",
+        "exit": 0
+      },
+      "isolated-native-tests-result": {
+        "profile": "llm-60",
+        "network_disabled": true,
+        "bundled_userspace": true,
+        "host_kernel_driver": true,
+        "targets": [
+          "commit_limit_test",
+          "iq_avx2_parity",
+          "qsa_select_bench",
+          "secondary_refill_lifetime_fixture",
+          "dense_q8_t8_test"
+        ],
+        "exit": 0,
+        "tests": 9,
+        "skipped": [],
+        "failed": [],
+        "passed": 9
+      },
+      "isolated-install-result": {
+        "profile": "llm-60",
+        "exit": 0,
+        "network_disabled": true,
+        "live_system_unchanged": true,
+        "local_packages": 349,
+        "host_devices_not_mounted": true,
+        "real_package_configuration": true,
+        "helper_exit": 0
+      },
+      "driver-coverage": {
+        "profile": "llm-60",
+        "loaded_module_packages": [
+          "linux-modules-7.0.0-34-generic",
+          "linux-modules-nvidia-595-open-7.0.0-34-generic"
+        ],
+        "missing_module_packages": [],
+        "unowned_modules": [],
+        "installed_microcode": [
+          "intel-microcode",
+          "amd64-microcode"
+        ],
+        "missing_microcode": []
+      },
+      "server_sha256": "8617cfd62a51d74b0d5b18bf39b164b005a5b8f9dcaa134a0250517b18109b0b",
+      "isolated-api-result": {
+        "profile": "llm-60",
+        "network": "isolated loopback only",
+        "existing_models_excluded_from_kit": true,
+        "startup_seconds": 3.01,
+        "models_endpoint": true,
+        "unary_generation": true,
+        "completion_tokens": 2,
+        "streaming_generation": true,
+        "stream_matches_unary": true,
+        "invalid_request_400": true,
+        "passed": true
+      }
+    },
+    {
+      "host": "llm-49",
+      "head": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
+      "secure_boot": "enabled",
+      "acquisition-result": {
+        "profile": "llm-49",
+        "head": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
+        "git_lfs_from_box_git": true,
+        "full_kit": false,
+        "incremental_update": true,
+        "offline_hash_verification": true
+      },
+      "isolated-build-result": {
+        "profile": "llm-49",
+        "network_disabled": true,
+        "host_tools_hidden": true,
+        "restoration": "extracted package/SDK payloads",
+        "exit": 0
+      },
+      "isolated-native-tests-result": {
+        "profile": "llm-49",
+        "network_disabled": true,
+        "bundled_userspace": true,
+        "host_kernel_driver": true,
+        "targets": [
+          "commit_limit_test",
+          "iq_avx2_parity",
+          "qsa_select_bench",
+          "secondary_refill_lifetime_fixture",
+          "dense_q8_t8_test"
+        ],
+        "exit": 0,
+        "tests": 9,
+        "skipped": [
+          "dense_q8_t8_test"
+        ],
+        "failed": [],
+        "passed": 8
+      },
+      "isolated-install-result": {
+        "profile": "llm-49",
+        "exit": 0,
+        "network_disabled": true,
+        "live_system_unchanged": true,
+        "local_packages": 368,
+        "host_devices_not_mounted": true,
+        "real_package_configuration": true,
+        "helper_exit": 0
+      },
+      "driver-coverage": {
+        "profile": "llm-49",
+        "loaded_module_packages": [
+          "linux-modules-7.0.0-38-generic"
+        ],
+        "missing_module_packages": [],
+        "unowned_modules": [
+          "nvidia_uvm",
+          "nvidia_drm",
+          "nvidia_modeset",
+          "nvidia"
+        ],
+        "installed_microcode": [
+          "intel-microcode",
+          "amd64-microcode"
+        ],
+        "missing_microcode": []
+      },
+      "server_sha256": "5031d4d2a6c16fd1b37f108080fe18b09e8552ac92ae88d2488e1b5f156325f8"
+    },
+    {
+      "host": "llm-79",
+      "head": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
+      "secure_boot": "disabled",
+      "acquisition-result": {
+        "profile": "llm-79",
+        "head": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
+        "git_lfs_from_box_git": true,
+        "full_kit": false,
+        "incremental_update": true,
+        "offline_hash_verification": true
+      },
+      "isolated-build-result": {
+        "profile": "llm-79",
+        "network_disabled": true,
+        "host_tools_hidden": true,
+        "restoration": "extracted package/SDK payloads",
+        "exit": 0
+      },
+      "isolated-native-tests-result": {
+        "profile": "llm-79",
+        "network_disabled": true,
+        "bundled_userspace": true,
+        "host_kernel_driver": true,
+        "targets": [
+          "commit_limit_test",
+          "iq_avx2_parity",
+          "qsa_select_bench"
+        ],
+        "exit": 0,
+        "tests": 6,
+        "skipped": [],
+        "failed": []
+      },
+      "isolated-install-result": {
+        "profile": "llm-79",
+        "exit": 0,
+        "network_disabled": true,
+        "live_system_unchanged": true,
+        "local_packages": 240,
+        "host_devices_not_mounted": true,
+        "real_package_configuration": true,
+        "helper_exit": 0
+      },
+      "driver-coverage": {
+        "profile": "llm-79",
+        "loaded_module_packages": [
+          "linux-modules-7.0.0-38-generic"
+        ],
+        "missing_module_packages": [],
+        "unowned_modules": [],
+        "installed_microcode": [
+          "intel-microcode",
+          "amd64-microcode"
+        ],
+        "missing_microcode": []
+      },
+      "server_sha256": "002ecbac1bad98d27804ab2d538192aee031754a4a34c14fcbd810b9a62bf7ac"
+    },
+    {
+      "host": "r730",
+      "head": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
+      "secure_boot": "disabled",
+      "acquisition-result": {
+        "profile": "r730",
+        "head": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
+        "git_lfs_from_box_git": true,
+        "full_kit": false,
+        "incremental_update": true,
+        "offline_hash_verification": true
+      },
+      "isolated-build-result": {
+        "profile": "r730",
+        "network_disabled": true,
+        "host_tools_hidden": true,
+        "restoration": "extracted package/SDK payloads",
+        "exit": 0
+      },
+      "isolated-native-tests-result": {
+        "profile": "r730",
+        "network_disabled": true,
+        "bundled_userspace": true,
+        "host_kernel_driver": true,
+        "targets": [
+          "commit_limit_test",
+          "iq_avx2_parity",
+          "qsa_select_bench",
+          "secondary_refill_lifetime_fixture",
+          "dense_q8_t8_test"
+        ],
+        "exit": 0,
+        "tests": 9,
+        "skipped": [
+          "dense_q8_t8_test"
+        ],
+        "failed": [],
+        "passed": 8
+      },
+      "isolated-install-result": {
+        "profile": "r730",
+        "exit": 0,
+        "network_disabled": true,
+        "live_system_unchanged": true,
+        "local_packages": 334,
+        "host_devices_not_mounted": true,
+        "real_package_configuration": true,
+        "helper_exit": 0
+      },
+      "driver-coverage": {
+        "profile": "r730",
+        "loaded_module_packages": [
+          "linux-modules-7.0.0-31-generic"
+        ],
+        "missing_module_packages": [],
+        "unowned_modules": [
+          "nvidia_uvm",
+          "nvidia_drm",
+          "nvidia_modeset",
+          "nvidia"
+        ],
+        "installed_microcode": [
+          "intel-microcode",
+          "amd64-microcode"
+        ],
+        "missing_microcode": []
+      },
+      "server_sha256": "1c5d6919f9fb638fa107f8b70b561d874e1156053945bade817861af8d5cb640"
+    },
+    {
+      "host": "g3070",
+      "head": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
+      "secure_boot": "disabled",
+      "acquisition-result": {
+        "profile": "g3070",
+        "head": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
+        "git_lfs_from_box_git": true,
+        "full_kit": false,
+        "incremental_update": true,
+        "offline_hash_verification": true
+      },
+      "isolated-build-result": {
+        "profile": "g3070",
+        "network_disabled": true,
+        "host_tools_hidden": true,
+        "restoration": "extracted package/SDK payloads",
+        "exit": 0
+      },
+      "isolated-native-tests-result": {
+        "profile": "g3070",
+        "network_disabled": true,
+        "bundled_userspace": true,
+        "host_kernel_driver": true,
+        "targets": [
+          "commit_limit_test",
+          "iq_avx2_parity",
+          "qsa_select_bench",
+          "secondary_refill_lifetime_fixture",
+          "dense_q8_t8_test"
+        ],
+        "exit": 0,
+        "tests": 9,
+        "skipped": [
+          "dense_q8_t8_test"
+        ],
+        "failed": [],
+        "passed": 8
+      },
+      "isolated-install-result": {
+        "profile": "g3070",
+        "exit": 0,
+        "network_disabled": true,
+        "live_system_unchanged": true,
+        "local_packages": 349,
+        "host_devices_not_mounted": true,
+        "real_package_configuration": true,
+        "helper_exit": 0
+      },
+      "driver-coverage": {
+        "profile": "g3070",
+        "loaded_module_packages": [
+          "linux-modules-7.0.0-34-generic",
+          "linux-modules-nvidia-595-open-7.0.0-34-generic"
+        ],
+        "missing_module_packages": [],
+        "unowned_modules": [],
+        "installed_microcode": [
+          "intel-microcode",
+          "amd64-microcode"
+        ],
+        "missing_microcode": []
+      },
+      "server_sha256": "aaabb5c912f5e3d5d7e265a2f229e492a974344721447dfc69d96a31bb5cb575"
+    }
+  ],
+  "fresh_full_clone": {
+    "profile": "box-git",
+    "head": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
+    "git_lfs_from_box_git": true,
+    "full_kit": true,
+    "incremental_update": false,
+    "offline_hash_verification": true
+  }
+}

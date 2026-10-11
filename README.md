@@ -23,11 +23,12 @@ installer or a substitute for backing up models and personal files.
 
 ## Initial acquisition
 
-Use a Git client with Git LFS installed:
+Local validation uses the private box-git repository. Public publication is
+paused. Use an authorized Git client with Git LFS installed:
 
 ```sh
-git clone https://github.com/CC-David-CC/CodiServer-precurs.git
-cd CodiServer-precurs
+git clone --branch validation/recovery-proof dflanag3@box-git:/srv/data/git/codi-offline-recovery.git
+cd codi-offline-recovery
 git lfs pull
 python3 recovery/recover.py verify
 ```

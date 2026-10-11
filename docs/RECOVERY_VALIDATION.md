@@ -1,52 +1,90 @@
-Local validation update: essential shell/base utilities and their exact preferred
-sources have been added after an isolated dependency-root test exposed the
-base-OS shell assumption. The earlier checks below apply to baseline `46cabe8`;
-the extended payload is undergoing fresh local validation. No public push is authorized
-by these partial results. OS media, live driver installation and reboot testing remain
-separate from extraction/build checks.
+# Local recovery validation
 
-# Recovery validation
+Validation uses the private `box-git` repository and branch
+`validation/recovery-proof`. The tested payload revision is
+`8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6`. Public publication is paused.
 
-The complete local manifest verifies 1,857 assets: 13,834,712,524 bytes across
-paths, approximately 11.92 GiB of unique LFS payload after hash deduplication.
-Initial acquisition must hydrate all LFS objects before disconnected recovery.
+The manifest contains 2,254 asset paths totaling 15,130,389,292 bytes.
+Its 2,200 unique SHA-256 objects total 14,077,178,791 bytes (13.11 GiB).
+Git LFS acquisition and full hydration are prerequisites for disconnected use.
+Model weights, prepared packs, draft heads and OS installation media are excluded.
 
-Completed checks:
+A separate fresh full Git/LFS clone on the box-git data disk acquired and
+verified all manifest assets inside a network-disabled namespace. This used the
+local repository transport and did not access GitHub or the Internet.
 
-- Five helper tests pass on Windows: hash/tamper/LFS-pointer rejection, path
-  escape rejection, absolute package-link handling, and tar traversal rejection.
-  unknown manifest-reference rejection. Windows is a development host, not a recovery target.
-- C++ `codi-server` builds and `--help` succeeds on middle-child (CUDA 12.6 / sm_61)
-  and a5500 (HIP / gfx1012).
-- All seven Linux hosts were inventoried. Package acquisition uses download-only
-  mode with an empty dependency status to collect dependency closures. No live
-  system packages or drivers were installed.
-- Fresh server source builds, help and native version checks passed with networking
-  disabled (`sudo unshare -n`, then `runuser`) on llm-60, llm-49, g3070, r730 and
-  llm-79. Installed compilers/SDKs were used for these checks; they are not fresh
-  package installations. The R730 check used its installed CUDA 12.0 / GCC 12;
-  its recovery profile restores CUDA 12.6 / GCC 13.
-- Selected native CTest results in the same disconnected environments: llm-60,
-  llm-49 and g3070 each passed nine tests; r730 passed eight with one expected
-  dense-Q8 tensor-core skip on Pascal; llm-79 passed six. Tests cover CPU IQ parity,
-  GPU selection, commit bounds, and on CUDA, refill lifetime and dense Q8.
-- All seven package closures passed APT simulation with networking disabled,
-  empty package status, disabled download/repository access, and local packages
-  only. This checks dependency resolution without installing packages.
-- All 3,608 regular files from the pinned llama.cpp archive match the vendored
-  working tree byte for byte.
-- The actual recovery helper completed fresh disconnected builds on llm-60 and
-  llm-79. The latter used the extracted SDK archive with recorded alternatives
-  aliases restored inside the recovery tree, without changing `/opt/rocm` or
-  `/etc/alternatives` on the host.
+## Completed fleet checks
 
-- Full local size/SHA-256 verification passed for all 1,857 manifest assets.
-- The run helper selects the extracted SDK's runtime library path. On llm-79,
-  loader inspection with that path resolved HIP, BLAS and compiler-runtime
-  dependencies inside the extracted recovery SDK; the native version command
-  passed with networking disabled.
+Every host fetched its selected assets from `box-git` and verified their size and
+SHA-256 with networking disabled. `llm-60` verified the entire manifest.
+Every host built the C++ server and ran the native version command inside an
+isolated dependency root. Only bundled packages/SDKs and vendored source were
+visible to the build; host compilers and SDKs were hidden.
 
-Publication verification is performed after pushing. Live driver installations,
-bare-metal restores and full-model HTTP/speed runs were not performed for this kit.
-Earlier native fixture coverage and two Pascal gaps are documented separately in
-`UPGRADE_VALIDATION.md`. No new full-model HTTP or speed result is claimed.
+Every host also unpacked and configured its actual package set through the
+recovery helper's `install-packages` operation, with APT downloads disabled and
+the network namespace disconnected. Service starts were suppressed. Real host
+devices, EFI variables and live boot files were not mounted into these roots.
+
+| Host | Package configuration | Native checks exercised | Expected skips | Not exercised |
+| --- | --- | --- | --- | --- |
+| middle-child | 337 packages, pass | 4 pass | 1 | 4 AVX2 parity cases |
+| a5500 | 293 packages, pass | 6 pass | 0 | 0 |
+| llm-60 | 349 packages, pass | 9 pass | 0 | 0 |
+| llm-49 | 368 packages, pass | 8 pass | 1 | 0 |
+| llm-79 | 240 packages, pass | 6 pass | 0 | 0 |
+| r730 | 334 packages, pass | 8 pass | 1 | 0 |
+| g3070 | 349 packages, pass | 8 pass | 1 | 0 |
+
+The 57 selected CTest cases comprise 49 exercised passes, four explicit skips,
+and four AVX2 parity cases that return success without exercising parity on the
+AVX-only middle-child CPU. Dense-Q8 T8 coverage requires SM120 and is explicitly
+skipped on the other CUDA GPUs. Tests cover commit bounds, CPU IQ parity where
+supported, GPU selection, CUDA refill lifetime and supported dense-Q8 kernels.
+Runtime GPU checks use the existing host kernel driver and bundled userspace;
+they do not prove that a newly restored kernel driver loads after reboot.
+
+Actual offline NVIDIA DKMS builds succeeded on middle-child, r730 and llm-49.
+For llm-60 and g3070, matching Ubuntu prebuilt open modules and their versioned
+dependency-provider package are bundled with the working 595.91.07 userspace.
+The llm-49 DKMS installation generated a certificate and signed its module using
+bundled tools; an independent offline sign-file test also succeeded. Neither
+certificate was enrolled and neither newly built module was loaded into a host.
+
+Real HTTP API generation passed on llm-60 (CUDA) and a5500 (HIP), with bundled
+userspace, existing model files mounted read-only and loopback networking only.
+Checks cover health/models endpoints, a two-token non-streaming completion,
+matching streaming output with termination, and rejection of an invalid request.
+These short functional probes are not performance benchmarks. Other hosts have
+build/native coverage but do not yet have full-model HTTP coverage for this kit.
+
+All 3,608 regular vendored llama.cpp files match the pinned archive. Recovery
+helper checks cover hash tampering, unhydrated LFS pointers, invalid references
+and extraction path escapes. No engine source changes were made during the
+package-closure fixes recorded here.
+
+## Fixes exposed by recovery tests
+
+The isolated tests exposed missing essential shell/base utilities, APT itself,
+microcode dependencies, initramfs tooling and signing tools. These packages and
+their matching preferred sources are now bundled. The installed NVIDIA driver
+version was captured rather than mixing newer userspace with the host's kernel
+module. The final APT retest caught the missing prebuilt-module dependency
+provider; it and its matching source were added before the successful retest.
+
+The test fixture also required `/dev/fd` links for DKMS shell process substitution
+and writable `/proc/self` thread metadata for CUDA. `/proc/sys` remains read-only.
+Neither correction modifies the live host configuration.
+
+## Remaining recovery proof
+
+This kit starts from compatible installed Ubuntu, not a bare-metal OS restore.
+Cold-boot recovery on disposable installations/spare disks remains untested on
+all seven hosts. llm-49 has Secure Boot enabled and needs controlled certificate
+enrollment and boot acceptance testing. EFI-variable operations were deliberately
+unavailable in the isolated package test. Multi-GPU full-model operation and
+full-model HTTP tests on the remaining five machines are also untested.
+
+No public branch, PR or deployment is justified by a claim of complete recovery
+until these remaining checks have been resolved. Local evidence is preserved;
+test keys, model files and personal configuration do not belong in Git.
