@@ -2,7 +2,7 @@
 
 Validation uses the private `box-git` repository and branch
 `validation/recovery-proof`. The tested payload revision is
-`8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6`. Public publication is paused.
+`8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6`. The owner authorized public publication after these isolated checks.
 
 The manifest contains 2,254 asset paths totaling 15,130,389,292 bytes.
 Its 2,200 unique SHA-256 objects total 14,077,178,791 bytes (13.11 GiB).
@@ -85,6 +85,5 @@ enrollment and boot acceptance testing. EFI-variable operations were deliberatel
 unavailable in the isolated package test. Multi-GPU full-model operation and
 full-model HTTP tests on the remaining five machines are also untested.
 
-No public branch, PR or deployment is justified by a claim of complete recovery
-until these remaining checks have been resolved. Local evidence is preserved;
+The published kit does not claim complete cold-boot recovery. Local evidence is preserved;
 test keys, model files and personal configuration do not belong in Git.

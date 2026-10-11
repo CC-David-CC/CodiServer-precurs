@@ -1,7 +1,7 @@
 {
   "payload_revision": "8ecdfe739d5ec96ca7d3966c4e3998e9af65eed6",
   "engine_source_revision": "46cabe8013f40452070c7421d0ecd28fbb1a0d7a",
-  "publication": "paused",
+  "publication": "authorized by owner after isolated recovery validation",
   "cold_boot_tested": false,
   "certificate_enrollment_tested": false,
   "hosts": [
